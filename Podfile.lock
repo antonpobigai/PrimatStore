@@ -1,0 +1,23 @@
+PODS:
+  - Bolts/Tasks (1.8.4)
+  - Parse (1.15.1):
+    - Bolts/Tasks (~> 1.8)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - Parse
+  - SDWebImage (= 4.0.0)
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  Parse: b7a77b20b8a6dede8058da1e2b339593578ce158
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: bad663afe363bacb4b2e67235a7dcf10b3553acc
+
+COCOAPODS: 1.2.1
