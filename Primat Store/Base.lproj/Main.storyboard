@@ -26,31 +26,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aD9-fg-2Oz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="588" y="509"/>
+            <point key="canvasLocation" x="-351" y="538"/>
         </scene>
-        <!--Футболки-->
-        <scene sceneID="wHg-oM-NHl">
-            <objects>
-                <viewController id="yI5-Hy-Zk9" customClass="TshirtController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="bVq-ck-b8M"/>
-                        <viewControllerLayoutGuide type="bottom" id="NRI-7G-5NE"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="cIG-74-6K4">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Футболки" image="tshirt32.png" selectedImage="tshirt32.png" id="rJl-Ln-rzT"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="gZM-q7-h0I" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-351" y="509"/>
-        </scene>
-        <!--Стікери-->
+        <!--Товари-->
         <scene sceneID="Md0-mD-E2W">
             <objects>
-                <viewController id="xfx-Ef-UEV" customClass="StickerController" sceneMemberID="viewController">
+                <viewController id="xfx-Ef-UEV" userLabel="Товари" customClass="StickerController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="CLZ-s6-Fwa"/>
                         <viewControllerLayoutGuide type="bottom" id="5il-WA-jhb"/>
@@ -60,7 +41,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Стікери" image="panda1.png" id="pen-G6-ISx"/>
+                    <tabBarItem key="tabBarItem" title="Товари" image="panda1.png" id="pen-G6-ISx"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9e5-2g-3cl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -82,7 +63,6 @@
                     </tabBar>
                     <connections>
                         <segue destination="xfx-Ef-UEV" kind="relationship" relationship="viewControllers" id="0ik-RW-SLF"/>
-                        <segue destination="yI5-Hy-Zk9" kind="relationship" relationship="viewControllers" id="XJC-lJ-5Ky"/>
                         <segue destination="1hM-aS-GeS" kind="relationship" relationship="viewControllers" id="5cs-Dh-ilc"/>
                     </connections>
                 </tabBarController>
@@ -94,6 +74,5 @@
     <resources>
         <image name="buy64-2.png" width="26" height="26"/>
         <image name="panda1.png" width="30" height="30"/>
-        <image name="tshirt32.png" width="30" height="30"/>
     </resources>
 </document>
