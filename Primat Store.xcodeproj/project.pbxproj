@@ -13,6 +13,8 @@
 		293B14BC1F534C20000982A8 /* MOdel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293B14BB1F534C20000982A8 /* MOdel.swift */; };
 		29589B691F5340DC00D9D84B /* TShirtVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29589B681F5340DC00D9D84B /* TShirtVO.swift */; };
 		29589B6B1F5340EC00D9D84B /* StickerVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29589B6A1F5340EC00D9D84B /* StickerVO.swift */; };
+		2996AE081F536A7B00F25675 /* TShirtTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2996AE071F536A7B00F25675 /* TShirtTableViewCell.swift */; };
+		2996AE0A1F536A8E00F25675 /* StickerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2996AE091F536A8E00F25675 /* StickerTableViewCell.swift */; };
 		63A72F821F4B2EF500831F13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A72F811F4B2EF500831F13 /* AppDelegate.swift */; };
 		63A72F871F4B2EF500831F13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63A72F851F4B2EF500831F13 /* Main.storyboard */; };
 		63A72F8C1F4B2EF600831F13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63A72F8A1F4B2EF600831F13 /* LaunchScreen.storyboard */; };
@@ -35,6 +37,8 @@
 		293B14BB1F534C20000982A8 /* MOdel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MOdel.swift; sourceTree = "<group>"; };
 		29589B681F5340DC00D9D84B /* TShirtVO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TShirtVO.swift; sourceTree = "<group>"; };
 		29589B6A1F5340EC00D9D84B /* StickerVO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickerVO.swift; sourceTree = "<group>"; };
+		2996AE071F536A7B00F25675 /* TShirtTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TShirtTableViewCell.swift; sourceTree = "<group>"; };
+		2996AE091F536A8E00F25675 /* StickerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickerTableViewCell.swift; sourceTree = "<group>"; };
 		63A72F7E1F4B2EF500831F13 /* Primat Store.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Primat Store.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63A72F811F4B2EF500831F13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63A72F861F4B2EF500831F13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -68,7 +72,9 @@
 			isa = PBXGroup;
 			children = (
 				293B14B51F53485A000982A8 /* TShirtViewController.swift */,
+				2996AE071F536A7B00F25675 /* TShirtTableViewCell.swift */,
 				293B14B71F534865000982A8 /* StickerViewController.swift */,
+				2996AE091F536A8E00F25675 /* StickerTableViewCell.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -284,7 +290,9 @@
 				29589B6B1F5340EC00D9D84B /* StickerVO.swift in Sources */,
 				293B14BA1F534953000982A8 /* DataLoader.swift in Sources */,
 				293B14B61F53485A000982A8 /* TShirtViewController.swift in Sources */,
+				2996AE081F536A7B00F25675 /* TShirtTableViewCell.swift in Sources */,
 				63A72F821F4B2EF500831F13 /* AppDelegate.swift in Sources */,
+				2996AE0A1F536A8E00F25675 /* StickerTableViewCell.swift in Sources */,
 				293B14B81F534865000982A8 /* StickerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

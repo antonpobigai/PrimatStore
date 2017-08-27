@@ -12,8 +12,8 @@ class Model {
    
     static var instance = Model()
     
-    private (set) var stickers: [StickerVO] = []
-    private (set) var tshirts: [TShirtVO] = []
+    private (set) var stickers: [StickerVO]? = []
+    private (set) var tshirts: [TShirtVO]? = []
 
 
     func loadAllStickers(loaded: @escaping () -> Void) {

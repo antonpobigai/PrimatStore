@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="h40-Tr-UI9">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="h40-Tr-UI9">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -27,7 +27,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MDN-No-AMm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-353" y="543"/>
+            <point key="canvasLocation" x="454" y="-71"/>
         </scene>
         <!--Кошик-->
         <scene sceneID="Tgb-WE-jHY">
@@ -46,7 +46,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ulf-cY-ucp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2324" y="543"/>
+            <point key="canvasLocation" x="454" y="734"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="aIj-pf-AJO">
@@ -97,7 +97,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZVr-pd-G0U" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3097.1014492753625" y="535.59782608695662"/>
+            <point key="canvasLocation" x="1299" y="734"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="F4D-Q4-uMW">
@@ -230,7 +230,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bBb-va-1Rv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1526.25" y="542.95774647887322"/>
+            <point key="canvasLocation" x="2154" y="-73"/>
         </scene>
         <!--Стікери-->
         <scene sceneID="A7L-S6-E4N">
@@ -249,7 +249,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HkJ-Vi-hC0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="588" y="-249.62518740629687"/>
+            <point key="canvasLocation" x="454" y="-814"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="c6q-I8-ldf">
@@ -394,12 +394,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="81i-SA-JWW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2323" y="-250"/>
+            <point key="canvasLocation" x="2154" y="-814"/>
         </scene>
-        <!--Sticker Controller-->
+        <!--Sticker View Controller-->
         <scene sceneID="usR-uR-gOF">
             <objects>
-                <viewController id="lHf-zR-fVm" customClass="StickerController" sceneMemberID="viewController">
+                <viewController id="lHf-zR-fVm" customClass="StickerViewController" customModule="Primat_Store" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="smA-6v-49W"/>
                         <viewControllerLayoutGuide type="bottom" id="MmB-zg-ZCp"/>
@@ -429,15 +429,15 @@
                                     <constraint firstItem="OFR-gc-0eY" firstAttribute="top" secondItem="ow4-Ai-K6U" secondAttribute="top" constant="22" id="qwn-82-yE2"/>
                                 </constraints>
                             </view>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="EfX-ir-YR4">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="272" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="EfX-ir-YR4">
                                 <rect key="frame" x="4" y="80" width="406" height="607"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="250" id="moM-Em-k10">
-                                        <rect key="frame" x="0.0" y="28" width="406" height="250"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="sticker" rowHeight="272" id="moM-Em-k10" customClass="StickerTableViewCell" customModule="Primat_Store" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="406" height="272"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="moM-Em-k10" id="gyJ-mX-JLO">
-                                            <rect key="frame" x="0.0" y="0.0" width="406" height="249.66666666666666"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="406" height="271.66666666666669"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="E9w-aG-DIk">
@@ -478,6 +478,9 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
+                                            <outlet property="priceLabel" destination="qGE-bb-McB" id="mdU-sF-bJ6"/>
+                                            <outlet property="stickerImage" destination="E9w-aG-DIk" id="pCj-ai-lW5"/>
+                                            <outlet property="title" destination="ZfN-VH-Pf5" id="fFY-Sn-3cd"/>
                                             <segue destination="fTd-DP-T9v" kind="show" id="UvE-iy-R8V"/>
                                         </connections>
                                     </tableViewCell>
@@ -497,16 +500,18 @@
                     </view>
                     <navigationItem key="navigationItem" id="NDM-LK-I5j"/>
                     <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="tableView" destination="EfX-ir-YR4" id="ar8-mE-JbM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hfW-3Z-ncl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1527.2" y="-249.62518740629687"/>
+            <point key="canvasLocation" x="1298.5507246376812" y="-814.4021739130435"/>
         </scene>
-        <!--Tshirt Controller-->
+        <!--Shirt View Controller-->
         <scene sceneID="4BU-Qi-qHk">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="AOL-xZ-h7K" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="QfO-4J-ZcQ" customClass="TshirtController" sceneMemberID="viewController">
+                <viewController id="QfO-4J-ZcQ" customClass="TShirtViewController" customModule="Primat_Store" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="HO5-IE-WCU"/>
                         <viewControllerLayoutGuide type="bottom" id="GDS-dc-PxY"/>
@@ -536,15 +541,15 @@
                                     <constraint firstItem="Z88-4H-I9a" firstAttribute="centerX" secondItem="ajL-4X-SfH" secondAttribute="centerX" id="pnQ-wC-zuT"/>
                                 </constraints>
                             </view>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="U15-ep-Fwt">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="266" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="U15-ep-Fwt">
                                 <rect key="frame" x="4" y="80" width="406" height="607"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="250" id="zZB-UD-nBf">
-                                        <rect key="frame" x="0.0" y="28" width="406" height="250"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="tshirt" rowHeight="266" id="zZB-UD-nBf" customClass="TShirtTableViewCell" customModule="Primat_Store" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="406" height="266"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="zZB-UD-nBf" id="eq1-uQ-INq">
-                                            <rect key="frame" x="0.0" y="0.0" width="406" height="250"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="406" height="266"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="lYQ-eH-ZDl">
@@ -585,6 +590,9 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
+                                            <outlet property="priceLabel" destination="fNh-du-N68" id="Yqi-9w-bSF"/>
+                                            <outlet property="title" destination="VKg-vC-W40" id="Fn5-12-zdd"/>
+                                            <outlet property="tshirtImage" destination="lYQ-eH-ZDl" id="Jhd-77-jth"/>
                                             <segue destination="l2i-fA-HzW" kind="show" id="80B-o5-2i6"/>
                                         </connections>
                                     </tableViewCell>
@@ -604,9 +612,13 @@
                     </view>
                     <navigationItem key="navigationItem" id="UEt-gV-Qhd"/>
                     <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="tableView" destination="U15-ep-Fwt" id="ilx-fK-qXd"/>
+                    </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AOL-xZ-h7K" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="587" y="543"/>
+            <point key="canvasLocation" x="1298.5507246376812" y="-72.554347826086968"/>
         </scene>
     </scenes>
     <resources>
