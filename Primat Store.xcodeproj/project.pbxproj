@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63A72F821F4B2EF500831F13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A72F811F4B2EF500831F13 /* AppDelegate.swift */; };
+		63A72F841F4B2EF500831F13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A72F831F4B2EF500831F13 /* ViewController.swift */; };
+		63A72F871F4B2EF500831F13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63A72F851F4B2EF500831F13 /* Main.storyboard */; };
+		63A72F8C1F4B2EF600831F13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63A72F8A1F4B2EF600831F13 /* LaunchScreen.storyboard */; };
+		63A72F991F4B751000831F13 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63A72F981F4B751000831F13 /* Media.xcassets */; };
+		63A72F9B1F4B76E800831F13 /* primat.png in Resources */ = {isa = PBXBuildFile; fileRef = 63A72F9A1F4B76E800831F13 /* primat.png */; };
+		63A72FA11F517BA900831F13 /* побигай1.png in Resources */ = {isa = PBXBuildFile; fileRef = 63A72FA01F517BA900831F13 /* побигай1.png */; };
+		63A72FA31F51829200831F13 /* StickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A72FA21F51829200831F13 /* StickerController.swift */; };
+		63A72FA51F5182AF00831F13 /* TshirtController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A72FA41F5182AF00831F13 /* TshirtController.swift */; };
+		63A72FA71F5183EC00831F13 /* BasketController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A72FA61F5183EC00831F13 /* BasketController.swift */; };
+		63A72FA91F51840600831F13 /* StickerTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A72FA81F51840600831F13 /* StickerTableCell.swift */; };
+		63A72FAB1F51841500831F13 /* TshirtTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A72FAA1F51841500831F13 /* TshirtTableCell.swift */; };
+		63A72FAD1F51843F00831F13 /* BasketTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A72FAC1F51843F00831F13 /* BasketTableCell.swift */; };
+		63A72FB81F51911100831F13 /* tshirt32.png in Resources */ = {isa = PBXBuildFile; fileRef = 63A72FB71F51911100831F13 /* tshirt32.png */; };
+		63A72FC01F51939D00831F13 /* Primat21.png in Resources */ = {isa = PBXBuildFile; fileRef = 63A72FBF1F51939D00831F13 /* Primat21.png */; };
+		63A72FC21F51954300831F13 /* buy64-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 63A72FC11F51954300831F13 /* buy64-2.png */; };
+		63A72FC41F51AC4A00831F13 /* AppIcon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63A72FC31F51AC4A00831F13 /* AppIcon.xcassets */; };
+		63A72FC61F52DE5200831F13 /* panda1.png in Resources */ = {isa = PBXBuildFile; fileRef = 63A72FC51F52DE5100831F13 /* panda1.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		63A72F7E1F4B2EF500831F13 /* Primat Store.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Primat Store.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63A72F811F4B2EF500831F13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63A72F831F4B2EF500831F13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63A72F861F4B2EF500831F13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63A72F8B1F4B2EF600831F13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63A72F8D1F4B2EF600831F13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63A72F981F4B751000831F13 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		63A72F9A1F4B76E800831F13 /* primat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = primat.png; sourceTree = "<group>"; };
+		63A72FA01F517BA900831F13 /* побигай1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "побигай1.png"; sourceTree = "<group>"; };
+		63A72FA21F51829200831F13 /* StickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickerController.swift; sourceTree = "<group>"; };
+		63A72FA41F5182AF00831F13 /* TshirtController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TshirtController.swift; sourceTree = "<group>"; };
+		63A72FA61F5183EC00831F13 /* BasketController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasketController.swift; sourceTree = "<group>"; };
+		63A72FA81F51840600831F13 /* StickerTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickerTableCell.swift; sourceTree = "<group>"; };
+		63A72FAA1F51841500831F13 /* TshirtTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TshirtTableCell.swift; sourceTree = "<group>"; };
+		63A72FAC1F51843F00831F13 /* BasketTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasketTableCell.swift; sourceTree = "<group>"; };
+		63A72FB71F51911100831F13 /* tshirt32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tshirt32.png; sourceTree = "<group>"; };
+		63A72FBF1F51939D00831F13 /* Primat21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Primat21.png; sourceTree = "<group>"; };
+		63A72FC11F51954300831F13 /* buy64-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buy64-2.png"; sourceTree = "<group>"; };
+		63A72FC31F51AC4A00831F13 /* AppIcon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AppIcon.xcassets; sourceTree = "<group>"; };
+		63A72FC51F52DE5100831F13 /* panda1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = panda1.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63A72F7B1F4B2EF400831F13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63A72F751F4B2EF300831F13 = {
+			isa = PBXGroup;
+			children = (
+				63A72FC31F51AC4A00831F13 /* AppIcon.xcassets */,
+				63A72F801F4B2EF500831F13 /* Primat Store */,
+				63A72F7F1F4B2EF500831F13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63A72F7F1F4B2EF500831F13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63A72F7E1F4B2EF500831F13 /* Primat Store.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63A72F801F4B2EF500831F13 /* Primat Store */ = {
+			isa = PBXGroup;
+			children = (
+				63A72F811F4B2EF500831F13 /* AppDelegate.swift */,
+				63A72F831F4B2EF500831F13 /* ViewController.swift */,
+				63A72F851F4B2EF500831F13 /* Main.storyboard */,
+				63A72F8A1F4B2EF600831F13 /* LaunchScreen.storyboard */,
+				63A72F971F4B732500831F13 /* LaunchImage */,
+				63A72F8D1F4B2EF600831F13 /* Info.plist */,
+				63A72F981F4B751000831F13 /* Media.xcassets */,
+				63A72FAE1F51845F00831F13 /* Controllers */,
+			);
+			path = "Primat Store";
+			sourceTree = "<group>";
+		};
+		63A72F971F4B732500831F13 /* LaunchImage */ = {
+			isa = PBXGroup;
+			children = (
+				63A72F9A1F4B76E800831F13 /* primat.png */,
+				63A72FBF1F51939D00831F13 /* Primat21.png */,
+				63A72FC51F52DE5100831F13 /* panda1.png */,
+				63A72FB71F51911100831F13 /* tshirt32.png */,
+				63A72FC11F51954300831F13 /* buy64-2.png */,
+				63A72FA01F517BA900831F13 /* побигай1.png */,
+			);
+			name = LaunchImage;
+			sourceTree = "<group>";
+		};
+		63A72FAE1F51845F00831F13 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				63A72FA21F51829200831F13 /* StickerController.swift */,
+				63A72FA81F51840600831F13 /* StickerTableCell.swift */,
+				63A72FA41F5182AF00831F13 /* TshirtController.swift */,
+				63A72FAA1F51841500831F13 /* TshirtTableCell.swift */,
+				63A72FA61F5183EC00831F13 /* BasketController.swift */,
+				63A72FAC1F51843F00831F13 /* BasketTableCell.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63A72F7D1F4B2EF400831F13 /* Primat Store */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63A72F901F4B2EF600831F13 /* Build configuration list for PBXNativeTarget "Primat Store" */;
+			buildPhases = (
+				63A72F7A1F4B2EF400831F13 /* Sources */,
+				63A72F7B1F4B2EF400831F13 /* Frameworks */,
+				63A72F7C1F4B2EF400831F13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Primat Store";
+			productName = "Primat Store";
+			productReference = 63A72F7E1F4B2EF500831F13 /* Primat Store.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63A72F761F4B2EF300831F13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Anton Pobigai";
+				TargetAttributes = {
+					63A72F7D1F4B2EF400831F13 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = E583K64N6A;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 63A72F791F4B2EF400831F13 /* Build configuration list for PBXProject "Primat Store" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63A72F751F4B2EF300831F13;
+			productRefGroup = 63A72F7F1F4B2EF500831F13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63A72F7D1F4B2EF400831F13 /* Primat Store */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63A72F7C1F4B2EF400831F13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63A72FC61F52DE5200831F13 /* panda1.png in Resources */,
+				63A72FB81F51911100831F13 /* tshirt32.png in Resources */,
+				63A72F991F4B751000831F13 /* Media.xcassets in Resources */,
+				63A72FC41F51AC4A00831F13 /* AppIcon.xcassets in Resources */,
+				63A72F8C1F4B2EF600831F13 /* LaunchScreen.storyboard in Resources */,
+				63A72F9B1F4B76E800831F13 /* primat.png in Resources */,
+				63A72FC21F51954300831F13 /* buy64-2.png in Resources */,
+				63A72F871F4B2EF500831F13 /* Main.storyboard in Resources */,
+				63A72FA11F517BA900831F13 /* побигай1.png in Resources */,
+				63A72FC01F51939D00831F13 /* Primat21.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63A72F7A1F4B2EF400831F13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63A72FA91F51840600831F13 /* StickerTableCell.swift in Sources */,
+				63A72FA71F5183EC00831F13 /* BasketController.swift in Sources */,
+				63A72FAD1F51843F00831F13 /* BasketTableCell.swift in Sources */,
+				63A72FA51F5182AF00831F13 /* TshirtController.swift in Sources */,
+				63A72F841F4B2EF500831F13 /* ViewController.swift in Sources */,
+				63A72FAB1F51841500831F13 /* TshirtTableCell.swift in Sources */,
+				63A72F821F4B2EF500831F13 /* AppDelegate.swift in Sources */,
+				63A72FA31F51829200831F13 /* StickerController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		63A72F851F4B2EF500831F13 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63A72F861F4B2EF500831F13 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63A72F8A1F4B2EF600831F13 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63A72F8B1F4B2EF600831F13 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63A72F8E1F4B2EF600831F13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63A72F8F1F4B2EF600831F13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63A72F911F4B2EF600831F13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E583K64N6A;
+				INFOPLIST_FILE = "Primat Store/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Primat-Store";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		63A72F921F4B2EF600831F13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E583K64N6A;
+				INFOPLIST_FILE = "Primat Store/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Primat-Store";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63A72F791F4B2EF400831F13 /* Build configuration list for PBXProject "Primat Store" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63A72F8E1F4B2EF600831F13 /* Debug */,
+				63A72F8F1F4B2EF600831F13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63A72F901F4B2EF600831F13 /* Build configuration list for PBXNativeTarget "Primat Store" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63A72F911F4B2EF600831F13 /* Debug */,
+				63A72F921F4B2EF600831F13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63A72F761F4B2EF300831F13 /* Project object */;
+}

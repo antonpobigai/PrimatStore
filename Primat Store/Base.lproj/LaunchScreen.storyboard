@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Programm created by Anton Pobigai and Pavlo Kharambura" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="d9U-vp-Jqf">
+                                <rect key="frame" x="0.0" y="686" width="414" height="50"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="nb9-Cz-ycA"/>
+                                </constraints>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="побигай1.png" translatesAutoresizingMaskIntoConstraints="NO" id="i9W-BD-Xqp">
+                                <rect key="frame" x="38" y="28" width="337" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="primat.png" translatesAutoresizingMaskIntoConstraints="NO" id="JWh-zH-hCy">
+                                <rect key="frame" x="111" y="254" width="191" height="215"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="215" id="bUO-Uv-iQR"/>
+                                    <constraint firstAttribute="width" constant="191" id="zNv-ZF-IdB"/>
+                                </constraints>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="d9U-vp-Jqf" secondAttribute="trailing" id="1TS-Hm-P8j"/>
+                            <constraint firstItem="d9U-vp-Jqf" firstAttribute="leading" secondItem="i9W-BD-Xqp" secondAttribute="leading" constant="-38" id="APQ-Rh-tix"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="i9W-BD-Xqp" secondAttribute="bottom" constant="41" id="JUN-zi-gRS"/>
+                            <constraint firstItem="JWh-zH-hCy" firstAttribute="centerX" secondItem="d9U-vp-Jqf" secondAttribute="centerX" id="N3X-Qe-LGY"/>
+                            <constraint firstItem="d9U-vp-Jqf" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="RCS-37-2K4"/>
+                            <constraint firstItem="d9U-vp-Jqf" firstAttribute="bottom" secondItem="xb3-aO-Qok" secondAttribute="top" id="cFB-Cp-w1A"/>
+                            <constraint firstItem="JWh-zH-hCy" firstAttribute="centerY" secondItem="i9W-BD-Xqp" secondAttribute="centerY" id="eZj-yf-F1T"/>
+                            <constraint firstItem="i9W-BD-Xqp" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="8" id="tDd-Ua-pTu"/>
+                            <constraint firstItem="d9U-vp-Jqf" firstAttribute="trailing" secondItem="i9W-BD-Xqp" secondAttribute="trailing" constant="39" id="tqC-g3-pUB"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="414" height="736"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="48.75" y="372.88732394366195"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="primat.png" width="4717" height="5378"/>
+        <image name="побигай1.png" width="1414" height="2820"/>
+    </resources>
+</document>
