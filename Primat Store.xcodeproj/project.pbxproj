@@ -25,6 +25,10 @@
 		63A72FC21F51954300831F13 /* buy64-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 63A72FC11F51954300831F13 /* buy64-2.png */; };
 		63A72FC41F51AC4A00831F13 /* AppIcon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63A72FC31F51AC4A00831F13 /* AppIcon.xcassets */; };
 		63A72FC61F52DE5200831F13 /* panda1.png in Resources */ = {isa = PBXBuildFile; fileRef = 63A72FC51F52DE5100831F13 /* panda1.png */; };
+		63A72FCA1F53491E00831F13 /* WPL_EvilPandaSquad.png in Resources */ = {isa = PBXBuildFile; fileRef = 63A72FC91F53491E00831F13 /* WPL_EvilPandaSquad.png */; };
+		63A72FCC1F53495700831F13 /* noviyprimat.png in Resources */ = {isa = PBXBuildFile; fileRef = 63A72FCB1F53495700831F13 /* noviyprimat.png */; };
+		63A72FCE1F53578700831F13 /* Без назви-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 63A72FCD1F53578700831F13 /* Без назви-1.png */; };
+		63A72FD01F53578C00831F13 /* Без назви-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 63A72FCF1F53578C00831F13 /* Без назви-2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +52,10 @@
 		63A72FC11F51954300831F13 /* buy64-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buy64-2.png"; sourceTree = "<group>"; };
 		63A72FC31F51AC4A00831F13 /* AppIcon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AppIcon.xcassets; sourceTree = "<group>"; };
 		63A72FC51F52DE5100831F13 /* panda1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = panda1.png; sourceTree = "<group>"; };
+		63A72FC91F53491E00831F13 /* WPL_EvilPandaSquad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WPL_EvilPandaSquad.png; sourceTree = "<group>"; };
+		63A72FCB1F53495700831F13 /* noviyprimat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noviyprimat.png; sourceTree = "<group>"; };
+		63A72FCD1F53578700831F13 /* Без назви-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Без назви-1.png"; sourceTree = "<group>"; };
+		63A72FCF1F53578C00831F13 /* Без назви-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Без назви-2.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +107,11 @@
 				63A72F9A1F4B76E800831F13 /* primat.png */,
 				63A72FBF1F51939D00831F13 /* Primat21.png */,
 				63A72FC51F52DE5100831F13 /* panda1.png */,
+				63A72FCD1F53578700831F13 /* Без назви-1.png */,
+				63A72FCF1F53578C00831F13 /* Без назви-2.png */,
+				63A72FCB1F53495700831F13 /* noviyprimat.png */,
 				63A72FB71F51911100831F13 /* tshirt32.png */,
+				63A72FC91F53491E00831F13 /* WPL_EvilPandaSquad.png */,
 				63A72FC11F51954300831F13 /* buy64-2.png */,
 				63A72FA01F517BA900831F13 /* побигай1.png */,
 			);
@@ -187,8 +199,12 @@
 				63A72F9B1F4B76E800831F13 /* primat.png in Resources */,
 				63A72FC21F51954300831F13 /* buy64-2.png in Resources */,
 				63A72F871F4B2EF500831F13 /* Main.storyboard in Resources */,
+				63A72FCC1F53495700831F13 /* noviyprimat.png in Resources */,
+				63A72FCE1F53578700831F13 /* Без назви-1.png in Resources */,
+				63A72FD01F53578C00831F13 /* Без назви-2.png in Resources */,
 				63A72FA11F517BA900831F13 /* побигай1.png in Resources */,
 				63A72FC01F51939D00831F13 /* Primat21.png in Resources */,
+				63A72FCA1F53491E00831F13 /* WPL_EvilPandaSquad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
