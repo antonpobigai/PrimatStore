@@ -7,47 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		293B14B61F53485A000982A8 /* TShirtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293B14B51F53485A000982A8 /* TShirtViewController.swift */; };
+		293B14B81F534865000982A8 /* StickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293B14B71F534865000982A8 /* StickerViewController.swift */; };
+		293B14BA1F534953000982A8 /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293B14B91F534953000982A8 /* DataLoader.swift */; };
+		293B14BC1F534C20000982A8 /* MOdel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293B14BB1F534C20000982A8 /* MOdel.swift */; };
+		29589B691F5340DC00D9D84B /* TShirtVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29589B681F5340DC00D9D84B /* TShirtVO.swift */; };
+		29589B6B1F5340EC00D9D84B /* StickerVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29589B6A1F5340EC00D9D84B /* StickerVO.swift */; };
 		63A72F821F4B2EF500831F13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A72F811F4B2EF500831F13 /* AppDelegate.swift */; };
-		63A72F841F4B2EF500831F13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A72F831F4B2EF500831F13 /* ViewController.swift */; };
 		63A72F871F4B2EF500831F13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63A72F851F4B2EF500831F13 /* Main.storyboard */; };
 		63A72F8C1F4B2EF600831F13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63A72F8A1F4B2EF600831F13 /* LaunchScreen.storyboard */; };
 		63A72F991F4B751000831F13 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63A72F981F4B751000831F13 /* Media.xcassets */; };
 		63A72F9B1F4B76E800831F13 /* primat.png in Resources */ = {isa = PBXBuildFile; fileRef = 63A72F9A1F4B76E800831F13 /* primat.png */; };
 		63A72FA11F517BA900831F13 /* побигай1.png in Resources */ = {isa = PBXBuildFile; fileRef = 63A72FA01F517BA900831F13 /* побигай1.png */; };
-		63A72FA31F51829200831F13 /* StickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A72FA21F51829200831F13 /* StickerController.swift */; };
-		63A72FA51F5182AF00831F13 /* TshirtController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A72FA41F5182AF00831F13 /* TshirtController.swift */; };
-		63A72FA71F5183EC00831F13 /* BasketController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A72FA61F5183EC00831F13 /* BasketController.swift */; };
-		63A72FA91F51840600831F13 /* StickerTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A72FA81F51840600831F13 /* StickerTableCell.swift */; };
-		63A72FAB1F51841500831F13 /* TshirtTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A72FAA1F51841500831F13 /* TshirtTableCell.swift */; };
-		63A72FAD1F51843F00831F13 /* BasketTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A72FAC1F51843F00831F13 /* BasketTableCell.swift */; };
 		63A72FB81F51911100831F13 /* tshirt32.png in Resources */ = {isa = PBXBuildFile; fileRef = 63A72FB71F51911100831F13 /* tshirt32.png */; };
 		63A72FC01F51939D00831F13 /* Primat21.png in Resources */ = {isa = PBXBuildFile; fileRef = 63A72FBF1F51939D00831F13 /* Primat21.png */; };
 		63A72FC21F51954300831F13 /* buy64-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 63A72FC11F51954300831F13 /* buy64-2.png */; };
 		63A72FC41F51AC4A00831F13 /* AppIcon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63A72FC31F51AC4A00831F13 /* AppIcon.xcassets */; };
 		63A72FC61F52DE5200831F13 /* panda1.png in Resources */ = {isa = PBXBuildFile; fileRef = 63A72FC51F52DE5100831F13 /* panda1.png */; };
+		65117201DD9D78FE62A186EE /* Pods_Primat_Store.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 976BD53573364ACBDF0F6A22 /* Pods_Primat_Store.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F8B07B3770DF78F838E9668 /* Pods-Primat Store.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Primat Store.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Primat Store/Pods-Primat Store.debug.xcconfig"; sourceTree = "<group>"; };
+		293B14B51F53485A000982A8 /* TShirtViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TShirtViewController.swift; sourceTree = "<group>"; };
+		293B14B71F534865000982A8 /* StickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickerViewController.swift; sourceTree = "<group>"; };
+		293B14B91F534953000982A8 /* DataLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
+		293B14BB1F534C20000982A8 /* MOdel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MOdel.swift; sourceTree = "<group>"; };
+		29589B681F5340DC00D9D84B /* TShirtVO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TShirtVO.swift; sourceTree = "<group>"; };
+		29589B6A1F5340EC00D9D84B /* StickerVO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickerVO.swift; sourceTree = "<group>"; };
 		63A72F7E1F4B2EF500831F13 /* Primat Store.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Primat Store.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63A72F811F4B2EF500831F13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		63A72F831F4B2EF500831F13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		63A72F861F4B2EF500831F13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		63A72F8B1F4B2EF600831F13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63A72F8D1F4B2EF600831F13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		63A72F981F4B751000831F13 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		63A72F981F4B751000831F13 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = "Primat Store/Media.xcassets"; sourceTree = "<group>"; };
 		63A72F9A1F4B76E800831F13 /* primat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = primat.png; sourceTree = "<group>"; };
 		63A72FA01F517BA900831F13 /* побигай1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "побигай1.png"; sourceTree = "<group>"; };
-		63A72FA21F51829200831F13 /* StickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickerController.swift; sourceTree = "<group>"; };
-		63A72FA41F5182AF00831F13 /* TshirtController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TshirtController.swift; sourceTree = "<group>"; };
-		63A72FA61F5183EC00831F13 /* BasketController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasketController.swift; sourceTree = "<group>"; };
-		63A72FA81F51840600831F13 /* StickerTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickerTableCell.swift; sourceTree = "<group>"; };
-		63A72FAA1F51841500831F13 /* TshirtTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TshirtTableCell.swift; sourceTree = "<group>"; };
-		63A72FAC1F51843F00831F13 /* BasketTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasketTableCell.swift; sourceTree = "<group>"; };
 		63A72FB71F51911100831F13 /* tshirt32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tshirt32.png; sourceTree = "<group>"; };
 		63A72FBF1F51939D00831F13 /* Primat21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Primat21.png; sourceTree = "<group>"; };
 		63A72FC11F51954300831F13 /* buy64-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buy64-2.png"; sourceTree = "<group>"; };
 		63A72FC31F51AC4A00831F13 /* AppIcon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AppIcon.xcassets; sourceTree = "<group>"; };
 		63A72FC51F52DE5100831F13 /* panda1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = panda1.png; sourceTree = "<group>"; };
+		976BD53573364ACBDF0F6A22 /* Pods_Primat_Store.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Primat_Store.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEEDEE5547A977E1E443B96D /* Pods-Primat Store.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Primat Store.release.xcconfig"; path = "Pods/Target Support Files/Pods-Primat Store/Pods-Primat Store.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,18 +57,59 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65117201DD9D78FE62A186EE /* Pods_Primat_Store.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		293B14B21F534800000982A8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				293B14B51F53485A000982A8 /* TShirtViewController.swift */,
+				293B14B71F534865000982A8 /* StickerViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		29589B671F53409500D9D84B /* BackEnd */ = {
+			isa = PBXGroup;
+			children = (
+				29589B681F5340DC00D9D84B /* TShirtVO.swift */,
+				29589B6A1F5340EC00D9D84B /* StickerVO.swift */,
+				293B14B91F534953000982A8 /* DataLoader.swift */,
+				293B14BB1F534C20000982A8 /* MOdel.swift */,
+			);
+			name = BackEnd;
+			sourceTree = "<group>";
+		};
+		3036021D54DFA9545E982866 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F8B07B3770DF78F838E9668 /* Pods-Primat Store.debug.xcconfig */,
+				EEEDEE5547A977E1E443B96D /* Pods-Primat Store.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		35B728E8452187E6D5582A81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				976BD53573364ACBDF0F6A22 /* Pods_Primat_Store.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		63A72F751F4B2EF300831F13 = {
 			isa = PBXGroup;
 			children = (
 				63A72FC31F51AC4A00831F13 /* AppIcon.xcassets */,
+				63A72F981F4B751000831F13 /* Media.xcassets */,
 				63A72F801F4B2EF500831F13 /* Primat Store */,
 				63A72F7F1F4B2EF500831F13 /* Products */,
+				3036021D54DFA9545E982866 /* Pods */,
+				35B728E8452187E6D5582A81 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,14 +124,13 @@
 		63A72F801F4B2EF500831F13 /* Primat Store */ = {
 			isa = PBXGroup;
 			children = (
+				293B14B21F534800000982A8 /* Controllers */,
+				29589B671F53409500D9D84B /* BackEnd */,
 				63A72F811F4B2EF500831F13 /* AppDelegate.swift */,
-				63A72F831F4B2EF500831F13 /* ViewController.swift */,
 				63A72F851F4B2EF500831F13 /* Main.storyboard */,
 				63A72F8A1F4B2EF600831F13 /* LaunchScreen.storyboard */,
 				63A72F971F4B732500831F13 /* LaunchImage */,
 				63A72F8D1F4B2EF600831F13 /* Info.plist */,
-				63A72F981F4B751000831F13 /* Media.xcassets */,
-				63A72FAE1F51845F00831F13 /* Controllers */,
 			);
 			path = "Primat Store";
 			sourceTree = "<group>";
@@ -106,19 +148,6 @@
 			name = LaunchImage;
 			sourceTree = "<group>";
 		};
-		63A72FAE1F51845F00831F13 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				63A72FA21F51829200831F13 /* StickerController.swift */,
-				63A72FA81F51840600831F13 /* StickerTableCell.swift */,
-				63A72FA41F5182AF00831F13 /* TshirtController.swift */,
-				63A72FAA1F51841500831F13 /* TshirtTableCell.swift */,
-				63A72FA61F5183EC00831F13 /* BasketController.swift */,
-				63A72FAC1F51843F00831F13 /* BasketTableCell.swift */,
-			);
-			name = Controllers;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63A72F901F4B2EF600831F13 /* Build configuration list for PBXNativeTarget "Primat Store" */;
 			buildPhases = (
+				FC8F8E02BCE79CD1043DA358 /* [CP] Check Pods Manifest.lock */,
 				63A72F7A1F4B2EF400831F13 /* Sources */,
 				63A72F7B1F4B2EF400831F13 /* Frameworks */,
 				63A72F7C1F4B2EF400831F13 /* Resources */,
+				56D72C74D528E710BE21BA03 /* [CP] Embed Pods Frameworks */,
+				8B9E2548A2F1A7B78A0DB4D7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -151,7 +183,7 @@
 				TargetAttributes = {
 					63A72F7D1F4B2EF400831F13 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = E583K64N6A;
+						DevelopmentTeam = 7ZBZB7WTZS;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -194,19 +226,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		56D72C74D528E710BE21BA03 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Primat Store/Pods-Primat Store-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B9E2548A2F1A7B78A0DB4D7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Primat Store/Pods-Primat Store-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC8F8E02BCE79CD1043DA358 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		63A72F7A1F4B2EF400831F13 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63A72FA91F51840600831F13 /* StickerTableCell.swift in Sources */,
-				63A72FA71F5183EC00831F13 /* BasketController.swift in Sources */,
-				63A72FAD1F51843F00831F13 /* BasketTableCell.swift in Sources */,
-				63A72FA51F5182AF00831F13 /* TshirtController.swift in Sources */,
-				63A72F841F4B2EF500831F13 /* ViewController.swift in Sources */,
-				63A72FAB1F51841500831F13 /* TshirtTableCell.swift in Sources */,
+				293B14BC1F534C20000982A8 /* MOdel.swift in Sources */,
+				29589B691F5340DC00D9D84B /* TShirtVO.swift in Sources */,
+				29589B6B1F5340EC00D9D84B /* StickerVO.swift in Sources */,
+				293B14BA1F534953000982A8 /* DataLoader.swift in Sources */,
+				293B14B61F53485A000982A8 /* TShirtViewController.swift in Sources */,
 				63A72F821F4B2EF500831F13 /* AppDelegate.swift in Sources */,
-				63A72FA31F51829200831F13 /* StickerController.swift in Sources */,
+				293B14B81F534865000982A8 /* StickerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,12 +406,13 @@
 		};
 		63A72F911F4B2EF600831F13 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F8B07B3770DF78F838E9668 /* Pods-Primat Store.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = E583K64N6A;
+				DEVELOPMENT_TEAM = 7ZBZB7WTZS;
 				INFOPLIST_FILE = "Primat Store/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Primat-Store";
+				PRODUCT_BUNDLE_IDENTIFIER = "pasha.Primat-Store";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -340,12 +420,13 @@
 		};
 		63A72F921F4B2EF600831F13 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEEDEE5547A977E1E443B96D /* Pods-Primat Store.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = E583K64N6A;
+				DEVELOPMENT_TEAM = 7ZBZB7WTZS;
 				INFOPLIST_FILE = "Primat Store/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Primat-Store";
+				PRODUCT_BUNDLE_IDENTIFIER = "pasha.Primat-Store";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
