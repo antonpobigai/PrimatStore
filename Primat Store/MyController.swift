@@ -12,12 +12,6 @@ class MyViewController: UIViewController {
         return .lightContent
     }
     
-    
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        self.navigationController?.setNavigationBarHidden(true, animated: animated)
-    }
-    
 }
 
 

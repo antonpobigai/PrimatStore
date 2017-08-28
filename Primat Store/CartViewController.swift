@@ -13,6 +13,8 @@ import MessageUI
 class CartViewController: MyViewController, UITableViewDelegate, UITableViewDataSource, MFMailComposeViewControllerDelegate {
  
     @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var mailButton: UIButton!
+    @IBOutlet weak var clearButton: UIButton!
 
     let sections = ["T-Shirts", "Stickers"]
     var t_shirts: [TshirtOrder] = []
@@ -20,19 +22,30 @@ class CartViewController: MyViewController, UITableViewDelegate, UITableViewData
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        if Reachability.isConnectedToNetwork() == false {
+            mailButton.isEnabled = false
+            clearButton.isEnabled = false
+        }
+        
         tableView.dataSource = self
         tableView.delegate = self
     }
 
     override func viewDidAppear(_ animated: Bool) {
+        self.navigationController?.setNavigationBarHidden(true, animated: animated)
 
+        if Reachability.isConnectedToNetwork() == false {
+            mailButton.isEnabled = false
+            clearButton.isEnabled = false
+        } else {
+            mailButton.isEnabled = true
+            clearButton.isEnabled = true
+        }
+        
         t_shirts = Model.instance.tshirtOrder ?? []
         s_tickers = Model.instance.stickersOrder ?? []
         
         tableView.reloadData()
-        
-        print("MyOrder T-Shirts:\(t_shirts)")
-        print("MyOrder Stickers:\(s_tickers)")
     }
     
     // MARK: - Table view data source
@@ -77,6 +90,7 @@ class CartViewController: MyViewController, UITableViewDelegate, UITableViewData
         }
         return cell
     }
+    
 
     func configureMailComtroller() -> MFMailComposeViewController {
         let mailComposerVC = MFMailComposeViewController()
@@ -94,6 +108,13 @@ class CartViewController: MyViewController, UITableViewDelegate, UITableViewData
         Model.instance.orderSended()
     }
     
+    @IBAction func clearCart(_ sender: Any) {
+        Model.instance.orderSended()
+        t_shirts = Model.instance.tshirtOrder ?? []
+        s_tickers = Model.instance.stickersOrder ?? []
+        
+        tableView.reloadData()
+    }
 
     @IBAction func sendEmail(_ sender: Any) {
         let mailComposerViewConroller = configureMailComtroller()
@@ -103,7 +124,6 @@ class CartViewController: MyViewController, UITableViewDelegate, UITableViewData
         } else {
             print("ERROR")
         }
-        
     }
 
 }

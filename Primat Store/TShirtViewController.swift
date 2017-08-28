@@ -18,10 +18,21 @@ class TShirtViewController: MyViewController, UITableViewDelegate, UITableViewDa
 
         tableView.dataSource = self
         tableView.delegate = self
+       
         
-        Model.instance.loadAllTshirts(loaded: tableView.reloadData)
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        
+        self.navigationController?.setNavigationBarHidden(true, animated: animated)
+
+        if Reachability.isConnectedToNetwork() == true {
+            SwiftSpinner.show(" Грузимо футболочки")
+            Model.instance.loadAllTshirts(loaded: tableView.reloadData)
+        } else {
+            AlertDialog.showAlert("Error", message: "Провірте підключення до інтернету", viewController: self)
+        }
+    }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return Model.instance.tshirts?.count ?? 0

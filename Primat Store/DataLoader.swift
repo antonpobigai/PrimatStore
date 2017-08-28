@@ -9,6 +9,7 @@
 import Foundation
 import Parse
 
+
 class DataLoader {
 
     func requestStickers(stickersLoaded: @escaping () -> Void) {
@@ -27,9 +28,10 @@ class DataLoader {
                     
                     Model.instance.setStickers(stickers: stickers)
                     stickersLoaded()
+                    
                 }
             }
-            
+            SwiftSpinner.hide()
         }
     }
     
@@ -53,7 +55,8 @@ class DataLoader {
                     tshirtsLoaded()
                 }
             }
-            
+            SwiftSpinner.hide()
+ 
         }
     }
     

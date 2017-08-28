@@ -18,7 +18,18 @@ class StickerViewController:MyViewController , UITableViewDelegate, UITableViewD
         tableView.dataSource = self
         tableView.delegate = self
         
-        Model.instance.loadAllStickers(loaded: tableView.reloadData)
+     
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        self.navigationController?.setNavigationBarHidden(true, animated: animated)
+        
+        if Reachability.isConnectedToNetwork() == true {
+            SwiftSpinner.show("Підгружаємо стікери")
+            Model.instance.loadAllStickers(loaded: tableView.reloadData)
+        } else {
+            AlertDialog.showAlert("Error", message: "Провірте підключення до інтернету", viewController: self)
+        }
     }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
