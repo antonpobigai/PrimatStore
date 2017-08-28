@@ -8,8 +8,9 @@
 
 import UIKit
 import SDWebImage
+import MessageUI
 
-class CartViewController: MyViewController, UITableViewDelegate, UITableViewDataSource {
+class CartViewController: MyViewController, UITableViewDelegate, UITableViewDataSource, MFMailComposeViewControllerDelegate {
  
     @IBOutlet weak var tableView: UITableView!
 
@@ -77,6 +78,32 @@ class CartViewController: MyViewController, UITableViewDelegate, UITableViewData
         return cell
     }
 
+    func configureMailComtroller() -> MFMailComposeViewController {
+        let mailComposerVC = MFMailComposeViewController()
+        mailComposerVC.mailComposeDelegate = self
+        
+        mailComposerVC.setToRecipients(["Antonpobigai@gmail.com", "pasha.harambura@hmail.com"])
+        mailComposerVC.setSubject("Order")
+        mailComposerVC.setMessageBody("Футболки: \(t_shirts)     Стікери:\(s_tickers)", isHTML: false)
+        
+        return mailComposerVC
+    }
     
+    func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
+        controller.dismiss(animated: true, completion: nil)
+        Model.instance.orderSended()
+    }
     
+
+    @IBAction func sendEmail(_ sender: Any) {
+        let mailComposerViewConroller = configureMailComtroller()
+        
+        if MFMailComposeViewController.canSendMail() {
+            self.present(mailComposerViewConroller, animated: true, completion: nil)
+        } else {
+            print("ERROR")
+        }
+        
+    }
+
 }

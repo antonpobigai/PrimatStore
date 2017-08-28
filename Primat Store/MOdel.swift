@@ -41,4 +41,9 @@ class Model {
         self.tshirts = tshirt
     }
     
+    func orderSended() {
+        self.stickersOrder = []
+        self.tshirtOrder = []
+    }
+    
 }
