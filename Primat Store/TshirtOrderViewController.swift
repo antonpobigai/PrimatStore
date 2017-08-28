@@ -65,6 +65,7 @@ class TshirtOrderViewController: MyViewController, UITextFieldDelegate {
             tshirtForOrder.sex = sexTextfield.text
             tshirtForOrder.size = sizeTextfield.text
             Model.instance.setTshirtsFOrOrder(tshirt: tshirtForOrder)
+            navigationController?.popViewController(animated: true)
         } else {
             return
         }

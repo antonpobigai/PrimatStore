@@ -59,6 +59,7 @@ class StickerOrderViewController: MyViewController, UITextFieldDelegate {
             stickerForOrder.price = priceLabel.text!
             stickerForOrder.size = selectedSticker.size
             Model.instance.setStickerForOrder(stickers: stickerForOrder)
+            navigationController?.popViewController(animated: true)
         } else {
             return
         }
