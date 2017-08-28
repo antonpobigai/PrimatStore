@@ -14,7 +14,8 @@ class Model {
     
     private (set) var stickers: [StickerVO]? = []
     private (set) var tshirts: [TShirtVO]? = []
-
+    private (set) var stickersOrder: [StickerOrder]? = []
+    private (set) var tshirtOrder: [TshirtOrder]? = []
 
     func loadAllStickers(loaded: @escaping () -> Void) {
         DataLoader().requestStickers(stickersLoaded: loaded)
@@ -24,6 +25,9 @@ class Model {
         DataLoader().requestTshirts(tshirtsLoaded: loaded)
     }
     
+    func setStickerForOrder(stickers: StickerOrder){
+        self.stickersOrder?.append(stickers)
+    }
     
     func setStickers(stickers: [StickerVO]) {
         self.stickers = stickers

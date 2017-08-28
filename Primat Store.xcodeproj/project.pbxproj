@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2922A9331F541BAF00C00AEA /* MyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2922A9321F541BAF00C00AEA /* MyController.swift */; };
+		2922A9351F5427A100C00AEA /* StickerOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2922A9341F5427A100C00AEA /* StickerOrderViewController.swift */; };
+		2922A9371F5427C400C00AEA /* TshirtOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2922A9361F5427C400C00AEA /* TshirtOrderViewController.swift */; };
+		2922A9391F542D5200C00AEA /* OrderVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2922A9381F542D5200C00AEA /* OrderVO.swift */; };
+		2922A93B1F54361C00C00AEA /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2922A93A1F54361C00C00AEA /* CartViewController.swift */; };
 		293B14B61F53485A000982A8 /* TShirtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293B14B51F53485A000982A8 /* TShirtViewController.swift */; };
 		293B14B81F534865000982A8 /* StickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293B14B71F534865000982A8 /* StickerViewController.swift */; };
 		293B14BA1F534953000982A8 /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293B14B91F534953000982A8 /* DataLoader.swift */; };
@@ -31,6 +36,11 @@
 
 /* Begin PBXFileReference section */
 		1F8B07B3770DF78F838E9668 /* Pods-Primat Store.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Primat Store.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Primat Store/Pods-Primat Store.debug.xcconfig"; sourceTree = "<group>"; };
+		2922A9321F541BAF00C00AEA /* MyController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyController.swift; sourceTree = "<group>"; };
+		2922A9341F5427A100C00AEA /* StickerOrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickerOrderViewController.swift; sourceTree = "<group>"; };
+		2922A9361F5427C400C00AEA /* TshirtOrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TshirtOrderViewController.swift; sourceTree = "<group>"; };
+		2922A9381F542D5200C00AEA /* OrderVO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderVO.swift; sourceTree = "<group>"; };
+		2922A93A1F54361C00C00AEA /* CartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
 		293B14B51F53485A000982A8 /* TShirtViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TShirtViewController.swift; sourceTree = "<group>"; };
 		293B14B71F534865000982A8 /* StickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickerViewController.swift; sourceTree = "<group>"; };
 		293B14B91F534953000982A8 /* DataLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
@@ -75,6 +85,9 @@
 				2996AE071F536A7B00F25675 /* TShirtTableViewCell.swift */,
 				293B14B71F534865000982A8 /* StickerViewController.swift */,
 				2996AE091F536A8E00F25675 /* StickerTableViewCell.swift */,
+				2922A9341F5427A100C00AEA /* StickerOrderViewController.swift */,
+				2922A9361F5427C400C00AEA /* TshirtOrderViewController.swift */,
+				2922A93A1F54361C00C00AEA /* CartViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -84,6 +97,7 @@
 			children = (
 				29589B681F5340DC00D9D84B /* TShirtVO.swift */,
 				29589B6A1F5340EC00D9D84B /* StickerVO.swift */,
+				2922A9381F542D5200C00AEA /* OrderVO.swift */,
 				293B14B91F534953000982A8 /* DataLoader.swift */,
 				293B14BB1F534C20000982A8 /* MOdel.swift */,
 			);
@@ -137,6 +151,7 @@
 				63A72F8A1F4B2EF600831F13 /* LaunchScreen.storyboard */,
 				63A72F971F4B732500831F13 /* LaunchImage */,
 				63A72F8D1F4B2EF600831F13 /* Info.plist */,
+				2922A9321F541BAF00C00AEA /* MyController.swift */,
 			);
 			path = "Primat Store";
 			sourceTree = "<group>";
@@ -287,11 +302,16 @@
 			files = (
 				293B14BC1F534C20000982A8 /* MOdel.swift in Sources */,
 				29589B691F5340DC00D9D84B /* TShirtVO.swift in Sources */,
+				2922A93B1F54361C00C00AEA /* CartViewController.swift in Sources */,
 				29589B6B1F5340EC00D9D84B /* StickerVO.swift in Sources */,
 				293B14BA1F534953000982A8 /* DataLoader.swift in Sources */,
 				293B14B61F53485A000982A8 /* TShirtViewController.swift in Sources */,
+				2922A9391F542D5200C00AEA /* OrderVO.swift in Sources */,
+				2922A9331F541BAF00C00AEA /* MyController.swift in Sources */,
 				2996AE081F536A7B00F25675 /* TShirtTableViewCell.swift in Sources */,
+				2922A9371F5427C400C00AEA /* TshirtOrderViewController.swift in Sources */,
 				63A72F821F4B2EF500831F13 /* AppDelegate.swift in Sources */,
+				2922A9351F5427A100C00AEA /* StickerOrderViewController.swift in Sources */,
 				2996AE0A1F536A8E00F25675 /* StickerTableViewCell.swift in Sources */,
 				293B14B81F534865000982A8 /* StickerViewController.swift in Sources */,
 			);

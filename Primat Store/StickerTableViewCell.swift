@@ -12,6 +12,7 @@ class StickerTableViewCell: UITableViewCell {
     @IBOutlet weak var stickerImage: UIImageView!
     @IBOutlet weak var title: UILabel!
     @IBOutlet weak var priceLabel: UILabel!
+    @IBOutlet weak var stickerSize: UILabel!
 
     override func awakeFromNib() {
         super.awakeFromNib()

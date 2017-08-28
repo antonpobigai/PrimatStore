@@ -12,6 +12,7 @@ class TShirtTableViewCell: UITableViewCell {
     @IBOutlet weak var tshirtImage: UIImageView!
     @IBOutlet weak var title: UILabel!
     @IBOutlet weak var priceLabel: UILabel!
+    @IBOutlet weak var sizesLabel: UILabel!
 
     override func awakeFromNib() {
         super.awakeFromNib()

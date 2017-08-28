@@ -10,9 +10,9 @@ import Foundation
 
 struct StickerVO {
     
-    var name: String
-    var picture: URL
-    var price: Double
-    var size: String
+    var name: String?
+    var picture: URL?
+    var price: Double?
+    var size: String?
     
 }

@@ -9,7 +9,7 @@
 import UIKit
 import SDWebImage
 
-class StickerViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class StickerViewController:MyViewController , UITableViewDelegate, UITableViewDataSource {
 
     @IBOutlet weak var tableView: UITableView!
     
@@ -35,8 +35,20 @@ class StickerViewController: UIViewController, UITableViewDelegate, UITableViewD
         }
         cell.title.text = sticker?.name
         cell.priceLabel.text = "\(sticker?.price ?? 0.0)"
+        cell.stickerSize.text = sticker?.size
         
         return cell
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let destinationVC = segue.destination as UIViewController
+        if segue.identifier == "StickerSegue" {
+            let cell = sender as! StickerTableViewCell
+            let indexPath = tableView.indexPath(for: cell)
+            let sticker = Model.instance.stickers![indexPath!.row]
+            let detailsViewController = destinationVC as! StickerOrderViewController
+            detailsViewController.selectedSticker = sticker
+        }
     }
     
 }

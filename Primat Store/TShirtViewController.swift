@@ -9,7 +9,7 @@
 import UIKit
 import SDWebImage
 
-class TShirtViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class TShirtViewController: MyViewController, UITableViewDelegate, UITableViewDataSource {
 
     @IBOutlet weak var tableView: UITableView!
     
@@ -37,6 +37,7 @@ class TShirtViewController: UIViewController, UITableViewDelegate, UITableViewDa
         }
         cell.title.text = tshirt?.nameOfPrint
         cell.priceLabel.text = "\(tshirt?.price ?? 0.0)"
+        cell.sizesLabel.text = tshirt?.size
         
         return cell
     }
