@@ -25,8 +25,12 @@ class Model {
         DataLoader().requestTshirts(tshirtsLoaded: loaded)
     }
     
-    func setStickerForOrder(stickers: StickerOrder){
+    func setStickerForOrder(stickers: StickerOrder) {
         self.stickersOrder?.append(stickers)
+    }
+    
+    func setTshirtsFOrOrder(tshirt: TshirtOrder) {
+        self.tshirtOrder?.append(tshirt)
     }
     
     func setStickers(stickers: [StickerVO]) {

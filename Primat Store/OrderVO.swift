@@ -20,13 +20,13 @@ struct StickerOrder {
 
 struct TshirtOrder {
     
-    var nameOfPrint: String
-    var picture: URL
-    var price: Int
-    var color: String
-    var sex: String
-    var size: String
-    var count: Double
+    var nameOfPrint: String?
+    var picture: URL?
+    var price: String?
+    var color: String?
+    var sex: String?
+    var size: String?
+    var count: Int?
     
 }
 

@@ -42,4 +42,15 @@ class TShirtViewController: MyViewController, UITableViewDelegate, UITableViewDa
         return cell
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let destinationVC = segue.destination as UIViewController
+        if segue.identifier == "TshirtSegue" {
+            let cell = sender as! TShirtTableViewCell
+            let indexPath = tableView.indexPath(for: cell)
+            let tshirt = Model.instance.tshirts![indexPath!.row]
+            let detailsViewController = destinationVC as! TshirtOrderViewController
+            detailsViewController.selectedTshirt = tshirt
+        }
+    }
+    
 }

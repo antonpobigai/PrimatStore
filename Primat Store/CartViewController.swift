@@ -8,12 +8,12 @@
 
 import UIKit
 
-class CartViewController: UIViewController {
+class CartViewController: MyViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        print(Model.instance.stickersOrder ?? "error")
+        print(Model.instance.tshirtOrder ?? "error")
     }
 
     
