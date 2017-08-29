@@ -146,7 +146,6 @@ class CartViewController: MyViewController, UITableViewDelegate, UITableViewData
         let mailComposerViewConroller = configureMailComtroller()
         
         if MFMailComposeViewController.canSendMail() {
-            
             self.present(mailComposerViewConroller, animated: true, completion: nil)
         } else {
             print("ERROR")
