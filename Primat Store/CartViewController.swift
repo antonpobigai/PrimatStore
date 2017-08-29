@@ -50,7 +50,7 @@ class CartViewController: MyViewController, UITableViewDelegate, UITableViewData
                 clearButton.isEnabled = true
             }
         }
-                
+        
         tableView.reloadData()
     }
     
