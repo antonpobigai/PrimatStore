@@ -122,16 +122,12 @@ class CartViewController: MyViewController, UITableViewDelegate, UITableViewData
     func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
         controller.dismiss(animated: true, completion: nil)
         Model.instance.orderSended()
+        tabBarController?.tabBar.items?.last?.badgeValue = nil
     }
     
     @IBAction func clearCart(_ sender: Any) {
         
         tabBarController?.tabBar.items?.last?.badgeValue = nil
-        /*if let badgeValue = tabBarController?.tabBar.items?.last?.badgeValue {
-            tabBarController?.tabBar.items?.last?.badgeValue = String((Int(badgeValue) ?? 0))
-        } else {
-            tabBarController?.tabBar.items?.last?.badgeValue = nil
-        }*/
         
         Model.instance.orderSended()
         t_shirts = Model.instance.tshirtOrder ?? []
@@ -143,9 +139,10 @@ class CartViewController: MyViewController, UITableViewDelegate, UITableViewData
     @IBAction func sendEmail(_ sender: Any) {
         let mailComposerViewConroller = configureMailComtroller()
         
-        tabBarController?.tabBar.items?.first?.badgeValue = nil
+//        tabBarController?.tabBar.items?.first?.badgeValue = nil
         
         if MFMailComposeViewController.canSendMail() {
+            
             self.present(mailComposerViewConroller, animated: true, completion: nil)
         } else {
             print("ERROR")

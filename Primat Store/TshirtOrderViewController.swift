@@ -17,6 +17,7 @@ class TshirtOrderViewController: MyViewController, UITextFieldDelegate {
     @IBOutlet weak var countTextField: UITextField!
     @IBOutlet weak var sexTextfield: UITextField!
     @IBOutlet weak var priceLabel: UILabel!
+    @IBOutlet weak var buyButton: UIButton!
 
     var selectedTshirt: TShirtVO!
     var tshirtForOrder = TshirtOrder()
@@ -24,6 +25,8 @@ class TshirtOrderViewController: MyViewController, UITextFieldDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        buyButton.isEnabled = false
         
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
         view.addGestureRecognizer(tap)
@@ -58,6 +61,10 @@ class TshirtOrderViewController: MyViewController, UITextFieldDelegate {
             priceLabel.text = "\(orderCount * Int(exactly: selectedTshirt.price)!)"
         } else {
             priceLabel.text = "0.0"
+        }
+        
+        if countTextField.text != "" && sizeTextfield.text != "" && sexTextfield.text != "" {
+            buyButton.isEnabled = true
         }
     }
     

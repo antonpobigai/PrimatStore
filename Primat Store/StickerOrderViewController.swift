@@ -15,6 +15,7 @@ class StickerOrderViewController: MyViewController, UITextFieldDelegate {
     @IBOutlet weak var stickerSize: UILabel!
     @IBOutlet weak var countTextfield: UITextField!
     @IBOutlet weak var priceLabel: UILabel!
+    @IBOutlet weak var buyButton: UIButton!
 
     var selectedSticker: StickerVO!
     var stickerForOrder = StickerOrder()
@@ -24,6 +25,8 @@ class StickerOrderViewController: MyViewController, UITextFieldDelegate {
         super.viewDidLoad()
         self.countTextfield.delegate = self
 
+        buyButton.isEnabled = false
+        
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
         view.addGestureRecognizer(tap)
         
@@ -51,6 +54,7 @@ class StickerOrderViewController: MyViewController, UITextFieldDelegate {
         if countTextfield.text != "" {
             orderCount = (countTextfield.text! as NSString).integerValue
             priceLabel.text = "\(orderCount * Int(exactly: selectedSticker.price!)!)"
+            buyButton.isEnabled = true
             
         } else {
             priceLabel.text = "0.0"

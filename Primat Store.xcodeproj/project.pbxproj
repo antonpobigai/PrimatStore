@@ -236,7 +236,7 @@
 				TargetAttributes = {
 					63A72F7D1F4B2EF400831F13 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = E583K64N6A;
+						DevelopmentTeam = 7ZBZB7WTZS;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -477,7 +477,7 @@
 			baseConfigurationReference = 1F8B07B3770DF78F838E9668 /* Pods-Primat Store.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = E583K64N6A;
+				DEVELOPMENT_TEAM = 7ZBZB7WTZS;
 				INFOPLIST_FILE = "Primat Store/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "pasha.Primat-Store";
@@ -491,7 +491,7 @@
 			baseConfigurationReference = EEEDEE5547A977E1E443B96D /* Pods-Primat Store.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = E583K64N6A;
+				DEVELOPMENT_TEAM = 7ZBZB7WTZS;
 				INFOPLIST_FILE = "Primat Store/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "pasha.Primat-Store";
