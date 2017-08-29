@@ -35,17 +35,22 @@ class CartViewController: MyViewController, UITableViewDelegate, UITableViewData
     override func viewDidAppear(_ animated: Bool) {
         self.navigationController?.setNavigationBarHidden(true, animated: animated)
 
+        t_shirts = Model.instance.tshirtOrder ?? []
+        s_tickers = Model.instance.stickersOrder ?? []
+        
         if Reachability.isConnectedToNetwork() == false {
             mailButton.isEnabled = false
             clearButton.isEnabled = false
         } else {
-            mailButton.isEnabled = true
-            clearButton.isEnabled = true
+            if t_shirts.count == 0 && s_tickers.count == 0 {
+                mailButton.isEnabled = false
+                clearButton.isEnabled = false
+            } else {
+                mailButton.isEnabled = true
+                clearButton.isEnabled = true
+            }
         }
-        
-        t_shirts = Model.instance.tshirtOrder ?? []
-        s_tickers = Model.instance.stickersOrder ?? []
-        
+                
         tableView.reloadData()
     }
     
@@ -132,14 +137,13 @@ class CartViewController: MyViewController, UITableViewDelegate, UITableViewData
         Model.instance.orderSended()
         t_shirts = Model.instance.tshirtOrder ?? []
         s_tickers = Model.instance.stickersOrder ?? []
-        
+        mailButton.isEnabled = false
+        clearButton.isEnabled = false
         tableView.reloadData()
     }
 
     @IBAction func sendEmail(_ sender: Any) {
         let mailComposerViewConroller = configureMailComtroller()
-        
-//        tabBarController?.tabBar.items?.first?.badgeValue = nil
         
         if MFMailComposeViewController.canSendMail() {
             
