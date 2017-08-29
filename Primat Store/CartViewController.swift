@@ -92,25 +92,29 @@ class CartViewController: MyViewController, UITableViewDelegate, UITableViewData
         return cell
     }
     
-    
-    /*func tabvleView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath)
-        
-    {
-        if editingStyle == UITableViewCellEditingStyle.delete
-        {
-            sections.remove(at: indexPath.row)
-            //tableView.deleteRows(at: [indexPath], with: .automatic)
-            tableView.reloadData()
+    func orderText() -> [String] {
+        var stickerString = ""
+        var t_shirtSrting = ""
+        var counter = 1
+        for orderItem in s_tickers {
+            stickerString.append("\(counter)) Стікер: \(orderItem.name ?? "nil") Кількість: \(orderItem.count ?? 0) Ціна: \(orderItem.price ?? "0") ")
+            counter += 1
         }
-    }*/
+        
+        for orderItem in t_shirts {
+            t_shirtSrting.append("\(counter)) Футболка: \(orderItem.nameOfPrint ?? "nil") Колір:\(orderItem.color ?? "nil") Кількість:\(orderItem.count ?? 0) Ціна:\(orderItem.price ?? "0") Розмір:\(orderItem.size ?? "nil?") Стать:\(orderItem.sex ?? "nil")  ")
+        }
+        
+        return [stickerString, t_shirtSrting]
+    }
 
     func configureMailComtroller() -> MFMailComposeViewController {
         let mailComposerVC = MFMailComposeViewController()
         mailComposerVC.mailComposeDelegate = self
         
-        mailComposerVC.setToRecipients(["Antonpobigai@gmail.com", "pasha.harambura@hmail.com"])
+        mailComposerVC.setToRecipients(["Antonpobigai@gmail.com", "pasha.harambura@gmail.com"])
         mailComposerVC.setSubject("Order")
-        mailComposerVC.setMessageBody("Футболки: \(t_shirts)     Стікери:\(s_tickers)", isHTML: false)
+        mailComposerVC.setMessageBody("\(orderText())", isHTML: false)
         
         return mailComposerVC
     }
