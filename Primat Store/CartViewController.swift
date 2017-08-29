@@ -12,11 +12,12 @@ import MessageUI
 
 class CartViewController: MyViewController, UITableViewDelegate, UITableViewDataSource, MFMailComposeViewControllerDelegate {
  
+    
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var mailButton: UIButton!
     @IBOutlet weak var clearButton: UIButton!
 
-    let sections = ["T-Shirts", "Stickers"]
+    var sections = ["T-Shirts", "Stickers"]
     var t_shirts: [TshirtOrder] = []
     var s_tickers: [StickerOrder] = []
     
@@ -91,6 +92,17 @@ class CartViewController: MyViewController, UITableViewDelegate, UITableViewData
         return cell
     }
     
+    
+    /*func tabvleView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath)
+        
+    {
+        if editingStyle == UITableViewCellEditingStyle.delete
+        {
+            sections.remove(at: indexPath.row)
+            //tableView.deleteRows(at: [indexPath], with: .automatic)
+            tableView.reloadData()
+        }
+    }*/
 
     func configureMailComtroller() -> MFMailComposeViewController {
         let mailComposerVC = MFMailComposeViewController()

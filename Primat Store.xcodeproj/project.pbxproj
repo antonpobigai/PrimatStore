@@ -36,6 +36,7 @@
 		63A72FC21F51954300831F13 /* buy64-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 63A72FC11F51954300831F13 /* buy64-2.png */; };
 		63A72FC41F51AC4A00831F13 /* AppIcon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63A72FC31F51AC4A00831F13 /* AppIcon.xcassets */; };
 		63A72FC61F52DE5200831F13 /* panda1.png in Resources */ = {isa = PBXBuildFile; fileRef = 63A72FC51F52DE5100831F13 /* panda1.png */; };
+		63A72FD31F558F0800831F13 /* Pobeda_Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63A72FD21F558E2300831F13 /* Pobeda_Bold.ttf */; };
 		65117201DD9D78FE62A186EE /* Pods_Primat_Store.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 976BD53573364ACBDF0F6A22 /* Pods_Primat_Store.framework */; };
 /* End PBXBuildFile section */
 
@@ -72,6 +73,7 @@
 		63A72FC11F51954300831F13 /* buy64-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buy64-2.png"; sourceTree = "<group>"; };
 		63A72FC31F51AC4A00831F13 /* AppIcon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AppIcon.xcassets; sourceTree = "<group>"; };
 		63A72FC51F52DE5100831F13 /* panda1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = panda1.png; sourceTree = "<group>"; };
+		63A72FD21F558E2300831F13 /* Pobeda_Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pobeda_Bold.ttf; sourceTree = "<group>"; };
 		976BD53573364ACBDF0F6A22 /* Pods_Primat_Store.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Primat_Store.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEEDEE5547A977E1E443B96D /* Pods-Primat Store.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Primat Store.release.xcconfig"; path = "Pods/Target Support Files/Pods-Primat Store/Pods-Primat Store.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -155,6 +157,7 @@
 		63A72F801F4B2EF500831F13 /* Primat Store */ = {
 			isa = PBXGroup;
 			children = (
+				63A72FD11F558D7C00831F13 /* Font */,
 				293B14B21F534800000982A8 /* Controllers */,
 				29589B671F53409500D9D84B /* BackEnd */,
 				63A72F811F4B2EF500831F13 /* AppDelegate.swift */,
@@ -182,6 +185,14 @@
 				63A72FA01F517BA900831F13 /* побигай1.png */,
 			);
 			name = LaunchImage;
+			sourceTree = "<group>";
+		};
+		63A72FD11F558D7C00831F13 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				63A72FD21F558E2300831F13 /* Pobeda_Bold.ttf */,
+			);
+			name = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +258,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63A72FD31F558F0800831F13 /* Pobeda_Bold.ttf in Resources */,
 				29D8A35A1F54C8140090C9C2 /* delete.png in Resources */,
 				63A72FC61F52DE5200831F13 /* panda1.png in Resources */,
 				29D8A3581F54B1BA0090C9C2 /* email.png in Resources */,

@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="h40-Tr-UI9">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="h40-Tr-UI9">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Pobeda_Bold.ttf">
+            <string>Pobeda-Bold</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--Футболки-->
         <scene sceneID="nYH-jw-frK">
@@ -16,7 +21,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="hnJ-WP-j6a" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Футболки" image="tshirt32.png" selectedImage="tshirt32.png" id="JGl-2u-P7p"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="dII-ie-qUp">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="dII-ie-qUp">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -35,7 +40,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="nY6-uV-DNH" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Кошик" image="buy64-2.png" id="zaf-kH-PLw"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="WRA-mq-wxo">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="WRA-mq-wxo">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -64,8 +69,8 @@
                                 <rect key="frame" x="0.0" y="20" width="414" height="60"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Primat Store" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oQ8-52-hEU">
-                                        <rect key="frame" x="126.66666666666669" y="13.333333333333336" width="161" height="33.666666666666664"/>
-                                        <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="31"/>
+                                        <rect key="frame" x="137.33333333333337" y="14.666666666666664" width="139.66666666666663" height="31.000000000000007"/>
+                                        <fontDescription key="fontDescription" name="Pobeda-Bold" family="Pobeda" pointSize="31"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -92,11 +97,11 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Clear cart" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tdJ-D1-vDb">
-                                        <rect key="frame" x="2" y="0.0" width="48" height="21"/>
+                                        <rect key="frame" x="2" y="0.0" width="63" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="21" id="egc-Z1-doD"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                        <fontDescription key="fontDescription" name="Pobeda-Bold" family="Pobeda" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -122,10 +127,10 @@
                                         <rect key="frame" x="0.0" y="28" width="414" height="175"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="5Cf-XQ-pQP" id="hPR-gE-5EV">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="175"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="174.66666666666666"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Gpa-re-GPp">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Gpa-re-GPp">
                                                     <rect key="frame" x="8" y="8" width="155" height="155"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="155" id="lqA-dk-w44"/>
@@ -137,7 +142,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="25" id="7vY-FQ-Sjs"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" name="Pobeda-Bold" family="Pobeda" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -146,7 +151,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="25" id="rii-xx-1sg"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" name="Pobeda-Bold" family="Pobeda" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -155,7 +160,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="21" id="PK0-Yy-Cdg"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" name="Pobeda-Bold" family="Pobeda" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -164,16 +169,16 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="21" id="gbe-22-4pm"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" name="Pobeda-Bold" family="Pobeda" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Назва прінта:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZO6-ku-0WK">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Лого:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZO6-ku-0WK">
                                                     <rect key="frame" x="168" y="0.0" width="241" height="21"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="21" id="SH3-DX-Jpl"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" name="Pobeda-Bold" family="Pobeda" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -182,7 +187,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="25" id="Z8b-N7-F6q"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" name="Pobeda-Bold" family="Pobeda" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -249,7 +254,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="tUh-SG-nyq" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Стікери" image="panda1.png" id="gbK-bZ-qHR"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="yxu-wW-w3U">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="yxu-wW-w3U">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -272,7 +277,7 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="color" keyPath="tintColor">
-                                <color key="value" red="1" green="0.0099468241870000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </userDefinedRuntimeAttribute>
                         </userDefinedRuntimeAttributes>
                     </tabBar>
@@ -306,7 +311,7 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="21" id="NyZ-Jh-mH7"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="Pobeda-Bold" family="Pobeda" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -315,7 +320,7 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="21" id="gMW-Xi-9J0"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="Pobeda-Bold" family="Pobeda" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -357,8 +362,8 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sticker Store" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UJE-v5-ENv">
-                                        <rect key="frame" x="125" y="13" width="164" height="34"/>
-                                        <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="31"/>
+                                        <rect key="frame" x="134.66666666666669" y="14.666666666666664" width="145.00000000000006" height="31.000000000000007"/>
+                                        <fontDescription key="fontDescription" name="Pobeda-Bold" family="Pobeda" pointSize="31"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -386,7 +391,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="hSt-nz-aHB"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Pobeda-Bold" family="Pobeda" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -395,7 +400,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="4T8-A5-V4c"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Pobeda-Bold" family="Pobeda" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -404,7 +409,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="C1E-zu-wkp"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Pobeda-Bold" family="Pobeda" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -472,8 +477,8 @@
                                 <rect key="frame" x="4" y="20" width="406" height="60"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Primat Store" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OFR-gc-0eY">
-                                        <rect key="frame" x="122.66666666666669" y="13.333333333333336" width="161" height="33.666666666666664"/>
-                                        <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="31"/>
+                                        <rect key="frame" x="133.33333333333337" y="14.666666666666664" width="139.66666666666663" height="31.000000000000007"/>
+                                        <fontDescription key="fontDescription" name="Pobeda-Bold" family="Pobeda" pointSize="31"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -493,7 +498,7 @@
                                         <rect key="frame" x="0.0" y="28" width="406" height="220"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="moM-Em-k10" id="gyJ-mX-JLO">
-                                            <rect key="frame" x="0.0" y="0.0" width="406" height="220"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="406" height="219.66666666666666"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="E9w-aG-DIk">
@@ -508,7 +513,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="30" id="Ibj-cU-10b"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" name="Pobeda-Bold" family="Pobeda" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -517,7 +522,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="30" id="s07-0Y-b4h"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" name="Pobeda-Bold" family="Pobeda" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -526,7 +531,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="21" id="hg1-nv-Onl"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" name="Pobeda-Bold" family="Pobeda" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -535,7 +540,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="21" id="snh-cr-s9f"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" name="Pobeda-Bold" family="Pobeda" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -545,7 +550,7 @@
                                                         <constraint firstAttribute="height" constant="21" id="LK7-Qc-7WP"/>
                                                         <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="jyH-YC-IpD"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" name="Pobeda-Bold" family="Pobeda" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -618,8 +623,8 @@
                                 <rect key="frame" x="0.0" y="20" width="414" height="60"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Primat Store" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z88-4H-I9a">
-                                        <rect key="frame" x="126.66666666666669" y="13.333333333333336" width="161" height="33.666666666666664"/>
-                                        <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="31"/>
+                                        <rect key="frame" x="137.33333333333337" y="14.666666666666664" width="139.66666666666663" height="31.000000000000007"/>
+                                        <fontDescription key="fontDescription" name="Pobeda-Bold" family="Pobeda" pointSize="31"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -639,7 +644,7 @@
                                         <rect key="frame" x="0.0" y="28" width="406" height="220"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="zZB-UD-nBf" id="eq1-uQ-INq">
-                                            <rect key="frame" x="0.0" y="0.0" width="406" height="220"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="406" height="219.66666666666666"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="lYQ-eH-ZDl">
@@ -654,7 +659,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="30" id="AZ2-wE-wwm"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" name="Pobeda-Bold" family="Pobeda" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -663,7 +668,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="21" id="jPB-Ff-2hc"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" name="Pobeda-Bold" family="Pobeda" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -672,7 +677,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="21" id="wlU-Ot-46J"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" name="Pobeda-Bold" family="Pobeda" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -681,7 +686,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="21" id="ARe-z1-OHT"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" name="Pobeda-Bold" family="Pobeda" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -690,7 +695,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="21" id="540-2w-BUS"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" name="Pobeda-Bold" family="Pobeda" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -763,11 +768,11 @@
                                 <rect key="frame" x="0.0" y="80" width="414" height="607"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total price:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b5C-16-Rd9">
-                                        <rect key="frame" x="274.66666666666669" y="171" width="85" height="21"/>
+                                        <rect key="frame" x="282.66666666666669" y="171" width="69.666666666666629" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="21" id="RFK-2E-PNz"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="Pobeda-Bold" family="Pobeda" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -776,7 +781,7 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="21" id="ljM-pU-8bC"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="Pobeda-Bold" family="Pobeda" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -816,8 +821,8 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="T-Shirt Store" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t0I-WS-O4x">
-                                        <rect key="frame" x="127" y="13" width="160" height="34"/>
-                                        <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="31"/>
+                                        <rect key="frame" x="135.33333333333337" y="14.666666666666664" width="143.66666666666663" height="31.000000000000007"/>
+                                        <fontDescription key="fontDescription" name="Pobeda-Bold" family="Pobeda" pointSize="31"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -845,7 +850,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="25" id="mfA-VI-0zt"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Pobeda-Bold" family="Pobeda" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -854,7 +859,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="15" id="UnO-9n-0CB"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Pobeda-Bold" family="Pobeda" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -863,7 +868,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="15" id="ckf-Cb-TBF"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Pobeda-Bold" family="Pobeda" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -885,7 +890,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Male or Famale" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="URp-dj-Uwn">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Male or Famale" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="URp-dj-Uwn">
                                 <rect key="frame" x="230" y="228" width="174" height="20"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="20" id="OCL-1m-izW"/>
@@ -899,7 +904,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="15" id="4Ll-38-oj0"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Pobeda-Bold" family="Pobeda" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
