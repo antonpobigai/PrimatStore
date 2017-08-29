@@ -18,20 +18,17 @@ class StickerViewController:MyViewController , UITableViewDelegate, UITableViewD
         tableView.dataSource = self
         tableView.delegate = self
         
-     
+        loading()
     }
     
     override func viewWillAppear(_ animated: Bool) {
         self.navigationController?.setNavigationBarHidden(true, animated: animated)
-        
-        if Reachability.isConnectedToNetwork() == true {
-            SwiftSpinner.show("Підгружаємо стікери")
-            Model.instance.loadAllStickers(loaded: tableView.reloadData)
-        } else {
-            AlertDialog.showAlert("Error", message: "Провірте підключення до інтернету", viewController: self)
-        }
     }
 
+    @IBAction func refreshTable(_ sender: Any) {
+        loading()
+    }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return Model.instance.stickers?.count ?? 0
     }
@@ -59,6 +56,15 @@ class StickerViewController:MyViewController , UITableViewDelegate, UITableViewD
             let sticker = Model.instance.stickers![indexPath!.row]
             let detailsViewController = destinationVC as! StickerOrderViewController
             detailsViewController.selectedSticker = sticker
+        }
+    }
+    
+    func loading() {
+        if Reachability.isConnectedToNetwork() == true {
+            SwiftSpinner.show("Підгружаємо стікери")
+            Model.instance.loadAllStickers(loaded: tableView.reloadData)
+        } else {
+            AlertDialog.showAlert("Error", message: "Провірте підключення до інтернету", viewController: self)
         }
     }
     

@@ -25,12 +25,22 @@ class TshirtOrderViewController: MyViewController, UITextFieldDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
+        view.addGestureRecognizer(tap)
+        
         self.countTextField.delegate = self
         self.sizeTextfield.delegate = self
         self.sexTextfield.delegate = self
         
         tshirtTitleLabel.text = selectedTshirt.nameOfPrint
         tshirtImage.sd_setImage(with: selectedTshirt.picture)
+        
+    }
+    
+    func dismissKeyboard() {
+        //Causes the view (or one of its embedded text fields) to resign the first responder status.
+        view.endEditing(true)
+        performAction()
         
     }
     

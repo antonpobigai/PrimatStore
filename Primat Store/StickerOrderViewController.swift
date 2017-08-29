@@ -23,6 +23,9 @@ class StickerOrderViewController: MyViewController, UITextFieldDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.countTextfield.delegate = self
+
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
+        view.addGestureRecognizer(tap)
         
         stickerTitle.text = selectedSticker.name
         stickerSize.text = selectedSticker.size
@@ -30,6 +33,13 @@ class StickerOrderViewController: MyViewController, UITextFieldDelegate {
     
     }
 
+    func dismissKeyboard() {
+        //Causes the view (or one of its embedded text fields) to resign the first responder status.
+        view.endEditing(true)
+        performAction()
+        
+    }
+    
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         
         countTextfield.resignFirstResponder()  //if desired

@@ -19,19 +19,15 @@ class TShirtViewController: MyViewController, UITableViewDelegate, UITableViewDa
         tableView.dataSource = self
         tableView.delegate = self
        
-        
+        loading()
+    }
+    
+    @IBAction func refreshTable(_ sender: Any) {
+        loading()
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        
         self.navigationController?.setNavigationBarHidden(true, animated: animated)
-
-        if Reachability.isConnectedToNetwork() == true {
-            SwiftSpinner.show(" Грузимо футболочки")
-            Model.instance.loadAllTshirts(loaded: tableView.reloadData)
-        } else {
-            AlertDialog.showAlert("Error", message: "Провірте підключення до інтернету", viewController: self)
-        }
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -61,6 +57,15 @@ class TShirtViewController: MyViewController, UITableViewDelegate, UITableViewDa
             let tshirt = Model.instance.tshirts![indexPath!.row]
             let detailsViewController = destinationVC as! TshirtOrderViewController
             detailsViewController.selectedTshirt = tshirt
+        }
+    }
+
+    func loading() {
+        if Reachability.isConnectedToNetwork() == true {
+            SwiftSpinner.show(" Грузимо футболочки")
+            Model.instance.loadAllTshirts(loaded: tableView.reloadData)
+        } else {
+            AlertDialog.showAlert("Error", message: "Провірте підключення до інтернету", viewController: self)
         }
     }
     

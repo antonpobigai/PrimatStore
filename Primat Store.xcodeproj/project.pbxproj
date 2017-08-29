@@ -20,6 +20,7 @@
 		29589B6B1F5340EC00D9D84B /* StickerVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29589B6A1F5340EC00D9D84B /* StickerVO.swift */; };
 		2996AE081F536A7B00F25675 /* TShirtTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2996AE071F536A7B00F25675 /* TShirtTableViewCell.swift */; };
 		2996AE0A1F536A8E00F25675 /* StickerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2996AE091F536A8E00F25675 /* StickerTableViewCell.swift */; };
+		29B7D0CD1F55A4560022B982 /* refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 29B7D0CC1F55A4560022B982 /* refresh.png */; };
 		29D8A3581F54B1BA0090C9C2 /* email.png in Resources */ = {isa = PBXBuildFile; fileRef = 29D8A3571F54B1BA0090C9C2 /* email.png */; };
 		29D8A35A1F54C8140090C9C2 /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 29D8A3591F54C8140090C9C2 /* delete.png */; };
 		29D8A35C1F54CA8A0090C9C2 /* loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D8A35B1F54CA8A0090C9C2 /* loading.swift */; };
@@ -55,6 +56,7 @@
 		29589B6A1F5340EC00D9D84B /* StickerVO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickerVO.swift; sourceTree = "<group>"; };
 		2996AE071F536A7B00F25675 /* TShirtTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TShirtTableViewCell.swift; sourceTree = "<group>"; };
 		2996AE091F536A8E00F25675 /* StickerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickerTableViewCell.swift; sourceTree = "<group>"; };
+		29B7D0CC1F55A4560022B982 /* refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refresh.png; sourceTree = "<group>"; };
 		29D8A3571F54B1BA0090C9C2 /* email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = email.png; sourceTree = "<group>"; };
 		29D8A3591F54C8140090C9C2 /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete.png; sourceTree = "<group>"; };
 		29D8A35B1F54CA8A0090C9C2 /* loading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loading.swift; sourceTree = "<group>"; };
@@ -175,6 +177,7 @@
 		63A72F971F4B732500831F13 /* LaunchImage */ = {
 			isa = PBXGroup;
 			children = (
+				29B7D0CC1F55A4560022B982 /* refresh.png */,
 				29D8A3591F54C8140090C9C2 /* delete.png */,
 				29D8A3571F54B1BA0090C9C2 /* email.png */,
 				63A72F9A1F4B76E800831F13 /* primat.png */,
@@ -262,6 +265,7 @@
 				29D8A35A1F54C8140090C9C2 /* delete.png in Resources */,
 				63A72FC61F52DE5200831F13 /* panda1.png in Resources */,
 				29D8A3581F54B1BA0090C9C2 /* email.png in Resources */,
+				29B7D0CD1F55A4560022B982 /* refresh.png in Resources */,
 				63A72FB81F51911100831F13 /* tshirt32.png in Resources */,
 				63A72F991F4B751000831F13 /* Media.xcassets in Resources */,
 				63A72FC41F51AC4A00831F13 /* AppIcon.xcassets in Resources */,
