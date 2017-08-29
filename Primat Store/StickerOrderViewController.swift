@@ -62,6 +62,13 @@ class StickerOrderViewController: MyViewController, UITextFieldDelegate {
     }
 
     @IBAction func addToCArt(_ sender: Any) {
+        
+        if let badgeValue = tabBarController?.tabBar.items?.last?.badgeValue {
+            tabBarController?.tabBar.items?.last?.badgeValue = String((Int(badgeValue) ?? 0) + 1)
+        } else {
+            tabBarController?.tabBar.items?.last?.badgeValue = "1"
+        }
+        
         if let count = countTextfield.text {
             stickerForOrder.count = orderCount
             stickerForOrder.name = selectedSticker.name

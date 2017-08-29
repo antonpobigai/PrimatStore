@@ -112,7 +112,7 @@ class CartViewController: MyViewController, UITableViewDelegate, UITableViewData
         let mailComposerVC = MFMailComposeViewController()
         mailComposerVC.mailComposeDelegate = self
         
-        mailComposerVC.setToRecipients(["Antonpobigai@gmail.com", "pasha.harambura@gmail.com"])
+        mailComposerVC.setToRecipients(["Antonpobigai@gmail.com", "pilipenko.dmitryi@gmail.com", "pasha.harambura@gmail.com"])
         mailComposerVC.setSubject("Order")
         mailComposerVC.setMessageBody("\(orderText())", isHTML: false)
         
@@ -125,6 +125,14 @@ class CartViewController: MyViewController, UITableViewDelegate, UITableViewData
     }
     
     @IBAction func clearCart(_ sender: Any) {
+        
+        tabBarController?.tabBar.items?.last?.badgeValue = nil
+        /*if let badgeValue = tabBarController?.tabBar.items?.last?.badgeValue {
+            tabBarController?.tabBar.items?.last?.badgeValue = String((Int(badgeValue) ?? 0))
+        } else {
+            tabBarController?.tabBar.items?.last?.badgeValue = nil
+        }*/
+        
         Model.instance.orderSended()
         t_shirts = Model.instance.tshirtOrder ?? []
         s_tickers = Model.instance.stickersOrder ?? []
@@ -134,6 +142,8 @@ class CartViewController: MyViewController, UITableViewDelegate, UITableViewData
 
     @IBAction func sendEmail(_ sender: Any) {
         let mailComposerViewConroller = configureMailComtroller()
+        
+        tabBarController?.tabBar.items?.first?.badgeValue = nil
         
         if MFMailComposeViewController.canSendMail() {
             self.present(mailComposerViewConroller, animated: true, completion: nil)

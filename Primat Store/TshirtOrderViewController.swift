@@ -66,6 +66,13 @@ class TshirtOrderViewController: MyViewController, UITextFieldDelegate {
     }
 
     @IBAction func addToCArt(_ sender: Any) {
+        
+        if let badgeValue = tabBarController?.tabBar.items?.last?.badgeValue {
+            tabBarController?.tabBar.items?.last?.badgeValue = String((Int(badgeValue) ?? 0) + 1)
+        } else {
+            tabBarController?.tabBar.items?.last?.badgeValue = "1"
+        }
+        
         if let count = countTextField.text {
             tshirtForOrder.color = selectedTshirt.color
             tshirtForOrder.count = orderCount

@@ -26,6 +26,7 @@
 		29D8A35C1F54CA8A0090C9C2 /* loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D8A35B1F54CA8A0090C9C2 /* loading.swift */; };
 		29D8A35E1F54CB950090C9C2 /* AlertMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D8A35D1F54CB950090C9C2 /* AlertMessages.swift */; };
 		29E3B0841F548C7100AE775F /* CartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E3B0831F548C7100AE775F /* CartTableViewCell.swift */; };
+		637084B81F55CB5C0054FE20 /* CounterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637084B71F55CB5C0054FE20 /* CounterModel.swift */; };
 		63A72F821F4B2EF500831F13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A72F811F4B2EF500831F13 /* AppDelegate.swift */; };
 		63A72F871F4B2EF500831F13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63A72F851F4B2EF500831F13 /* Main.storyboard */; };
 		63A72F8C1F4B2EF600831F13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63A72F8A1F4B2EF600831F13 /* LaunchScreen.storyboard */; };
@@ -62,6 +63,7 @@
 		29D8A35B1F54CA8A0090C9C2 /* loading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loading.swift; sourceTree = "<group>"; };
 		29D8A35D1F54CB950090C9C2 /* AlertMessages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertMessages.swift; sourceTree = "<group>"; };
 		29E3B0831F548C7100AE775F /* CartTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartTableViewCell.swift; sourceTree = "<group>"; };
+		637084B71F55CB5C0054FE20 /* CounterModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterModel.swift; sourceTree = "<group>"; };
 		63A72F7E1F4B2EF500831F13 /* Primat Store.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Primat Store.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63A72F811F4B2EF500831F13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63A72F861F4B2EF500831F13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -170,6 +172,7 @@
 				2922A9321F541BAF00C00AEA /* MyController.swift */,
 				29D8A35B1F54CA8A0090C9C2 /* loading.swift */,
 				29D8A35D1F54CB950090C9C2 /* AlertMessages.swift */,
+				637084B71F55CB5C0054FE20 /* CounterModel.swift */,
 			);
 			path = "Primat Store";
 			sourceTree = "<group>";
@@ -233,7 +236,7 @@
 				TargetAttributes = {
 					63A72F7D1F4B2EF400831F13 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 7ZBZB7WTZS;
+						DevelopmentTeam = E583K64N6A;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -341,6 +344,7 @@
 				293B14BA1F534953000982A8 /* DataLoader.swift in Sources */,
 				293B14B61F53485A000982A8 /* TShirtViewController.swift in Sources */,
 				29D8A35C1F54CA8A0090C9C2 /* loading.swift in Sources */,
+				637084B81F55CB5C0054FE20 /* CounterModel.swift in Sources */,
 				2922A9391F542D5200C00AEA /* OrderVO.swift in Sources */,
 				2922A9331F541BAF00C00AEA /* MyController.swift in Sources */,
 				2996AE081F536A7B00F25675 /* TShirtTableViewCell.swift in Sources */,
@@ -473,7 +477,7 @@
 			baseConfigurationReference = 1F8B07B3770DF78F838E9668 /* Pods-Primat Store.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 7ZBZB7WTZS;
+				DEVELOPMENT_TEAM = E583K64N6A;
 				INFOPLIST_FILE = "Primat Store/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "pasha.Primat-Store";
@@ -487,7 +491,7 @@
 			baseConfigurationReference = EEEDEE5547A977E1E443B96D /* Pods-Primat Store.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 7ZBZB7WTZS;
+				DEVELOPMENT_TEAM = E583K64N6A;
 				INFOPLIST_FILE = "Primat Store/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "pasha.Primat-Store";
