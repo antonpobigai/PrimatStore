@@ -21,7 +21,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="hnJ-WP-j6a" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Футболки" image="tshirt32.png" selectedImage="tshirt32.png" id="JGl-2u-P7p"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="dII-ie-qUp">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="dII-ie-qUp">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -40,7 +40,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="nY6-uV-DNH" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Кошик" image="buy64-2.png" id="zaf-kH-PLw"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="WRA-mq-wxo">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="WRA-mq-wxo">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -138,25 +138,25 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zVQ-zj-OQz">
-                                                    <rect key="frame" x="168" y="138" width="241" height="25"/>
+                                                    <rect key="frame" x="168" y="148" width="241" height="15"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="25" id="7vY-FQ-Sjs"/>
+                                                        <constraint firstAttribute="height" constant="15" id="7vY-FQ-Sjs"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" name="Pobeda-Bold" family="Pobeda" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Count" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sEE-kh-nbl">
-                                                    <rect key="frame" x="168" y="73" width="241" height="25"/>
+                                                    <rect key="frame" x="168" y="78" width="241" height="15"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="25" id="rii-xx-1sg"/>
+                                                        <constraint firstAttribute="height" constant="15" id="rii-xx-1sg"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" name="Pobeda-Bold" family="Pobeda" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Кількість:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gto-Fa-9QX">
-                                                    <rect key="frame" x="168" y="52" width="241" height="21"/>
+                                                    <rect key="frame" x="168" y="57" width="241" height="21"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="21" id="PK0-Yy-Cdg"/>
                                                     </constraints>
@@ -165,27 +165,36 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ціна:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JJU-vt-HWQ">
-                                                    <rect key="frame" x="168" y="117" width="241" height="21"/>
+                                                    <rect key="frame" x="168" y="133" width="241" height="15"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="21" id="gbe-22-4pm"/>
+                                                        <constraint firstAttribute="height" constant="15" id="gbe-22-4pm"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" name="Pobeda-Bold" family="Pobeda" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Лого:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZO6-ku-0WK">
-                                                    <rect key="frame" x="168" y="0.0" width="241" height="21"/>
+                                                    <rect key="frame" x="168" y="0.0" width="241" height="15"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="21" id="SH3-DX-Jpl"/>
+                                                        <constraint firstAttribute="height" constant="15" id="SH3-DX-Jpl"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" name="Pobeda-Bold" family="Pobeda" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3hr-6U-HFE">
-                                                    <rect key="frame" x="168" y="22" width="241" height="25"/>
+                                                    <rect key="frame" x="168" y="16" width="241" height="15"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="25" id="Z8b-N7-F6q"/>
+                                                        <constraint firstAttribute="height" constant="15" id="Z8b-N7-F6q"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="Pobeda-Bold" family="Pobeda" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Розмір:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LBg-Dd-XQO">
+                                                    <rect key="frame" x="168" y="35" width="236" height="20"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="20" id="CjK-BI-tHO"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" name="Pobeda-Bold" family="Pobeda" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -204,11 +213,14 @@
                                                 <constraint firstAttribute="trailing" secondItem="zVQ-zj-OQz" secondAttribute="trailing" constant="5" id="MkS-Tb-ByX"/>
                                                 <constraint firstAttribute="trailing" secondItem="JJU-vt-HWQ" secondAttribute="trailing" constant="5" id="UOG-PX-ov1"/>
                                                 <constraint firstAttribute="trailing" secondItem="Gto-Fa-9QX" secondAttribute="trailing" constant="5" id="UwT-tP-ZtG"/>
+                                                <constraint firstItem="LBg-Dd-XQO" firstAttribute="top" secondItem="3hr-6U-HFE" secondAttribute="bottom" constant="4" id="d88-hQ-wxg"/>
                                                 <constraint firstItem="zVQ-zj-OQz" firstAttribute="top" secondItem="JJU-vt-HWQ" secondAttribute="bottom" id="dFt-zF-EVz"/>
                                                 <constraint firstItem="sEE-kh-nbl" firstAttribute="leading" secondItem="Gpa-re-GPp" secondAttribute="trailing" constant="5" id="dJb-5B-wqR"/>
                                                 <constraint firstItem="ZO6-ku-0WK" firstAttribute="leading" secondItem="Gpa-re-GPp" secondAttribute="trailing" constant="5" id="fsa-lc-MVa"/>
                                                 <constraint firstItem="ZO6-ku-0WK" firstAttribute="top" secondItem="hPR-gE-5EV" secondAttribute="top" id="fxx-DG-GgY"/>
+                                                <constraint firstAttribute="trailing" secondItem="LBg-Dd-XQO" secondAttribute="trailing" constant="10" id="jqw-Vo-2wm"/>
                                                 <constraint firstItem="zVQ-zj-OQz" firstAttribute="leading" secondItem="Gpa-re-GPp" secondAttribute="trailing" constant="5" id="nlg-nz-hRm"/>
+                                                <constraint firstItem="LBg-Dd-XQO" firstAttribute="leading" secondItem="Gpa-re-GPp" secondAttribute="trailing" constant="5" id="oBc-1C-DfO"/>
                                                 <constraint firstItem="JJU-vt-HWQ" firstAttribute="leading" secondItem="Gpa-re-GPp" secondAttribute="trailing" constant="5" id="tXf-Tt-lbU"/>
                                                 <constraint firstItem="sEE-kh-nbl" firstAttribute="centerY" secondItem="Gpa-re-GPp" secondAttribute="centerY" id="u6X-hh-siK"/>
                                                 <constraint firstAttribute="trailing" secondItem="sEE-kh-nbl" secondAttribute="trailing" constant="5" id="xHy-jP-1yp"/>
@@ -220,6 +232,7 @@
                                             <outlet property="itemTitle" destination="3hr-6U-HFE" id="TFd-9B-imi"/>
                                             <outlet property="itemsCount" destination="sEE-kh-nbl" id="D49-Vy-8Gx"/>
                                             <outlet property="itemsPrice" destination="zVQ-zj-OQz" id="cl7-0p-HdU"/>
+                                            <outlet property="sizeLabel" destination="LBg-Dd-XQO" id="phb-M5-YYr"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -254,7 +267,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="tUh-SG-nyq" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Стікери" image="panda1.png" id="gbK-bZ-qHR"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="yxu-wW-w3U">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="yxu-wW-w3U">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -478,7 +491,7 @@
                                 <rect key="frame" x="4" y="20" width="406" height="60"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Primat Store" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OFR-gc-0eY">
-                                        <rect key="frame" x="117" y="12" width="173" height="37"/>
+                                        <rect key="frame" x="134" y="15" width="140" height="31"/>
                                         <fontDescription key="fontDescription" name="Pobeda-Bold" family="Pobeda" pointSize="31"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>

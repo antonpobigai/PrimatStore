@@ -86,6 +86,7 @@ class CartViewController: MyViewController, UITableViewDelegate, UITableViewData
             cell.itemImage.sd_setImage(with: item.picture)
             cell.itemsCount.text = "\(item.count ?? 0)"
             cell.itemsPrice.text = "\(item.price ?? "0")"
+            cell.sizeLabel.text = "Розмір: \(item.size ?? "L")"
             
         } else if sectionIndex == 1 {
             let item = s_tickers[rowIndex]
@@ -93,6 +94,7 @@ class CartViewController: MyViewController, UITableViewDelegate, UITableViewData
             cell.itemImage.sd_setImage(with: item.picture)
             cell.itemsCount.text = "\(item.count ?? 0)"
             cell.itemsPrice.text = "\(item.price ?? "0")"
+            cell.sizeLabel.text = "Розмір: \(item.size ?? "0x0")"
         }
         return cell
     }
