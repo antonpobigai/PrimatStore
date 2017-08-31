@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <device id="retina3_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -27,14 +27,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="primat.png" translatesAutoresizingMaskIntoConstraints="NO" id="JWh-zH-hCy">
-                                <rect key="frame" x="111" y="254" width="191" height="215"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="215" id="bUO-Uv-iQR"/>
-                                    <constraint firstAttribute="width" constant="191" id="zNv-ZF-IdB"/>
-                                </constraints>
-                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LFz-kc-Hmc">
                                 <rect key="frame" x="20" y="686" width="374" height="50"/>
                                 <constraints>
@@ -45,7 +37,7 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="побигай1.png" translatesAutoresizingMaskIntoConstraints="NO" id="i9W-BD-Xqp">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchScr.png" translatesAutoresizingMaskIntoConstraints="NO" id="i9W-BD-Xqp">
                                 <rect key="frame" x="38" y="28" width="337" height="667"/>
                             </imageView>
                         </subviews>
@@ -53,11 +45,9 @@
                         <constraints>
                             <constraint firstItem="LFz-kc-Hmc" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="Ce1-Uq-bVh"/>
                             <constraint firstAttribute="trailingMargin" secondItem="LFz-kc-Hmc" secondAttribute="trailing" id="GOD-oa-V5b"/>
-                            <constraint firstItem="i9W-BD-Xqp" firstAttribute="centerX" secondItem="JWh-zH-hCy" secondAttribute="centerX" id="HLz-b7-NSJ"/>
                             <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="LFz-kc-Hmc" secondAttribute="bottom" id="Ias-Hl-N1F"/>
                             <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="i9W-BD-Xqp" secondAttribute="bottom" constant="41" id="JUN-zi-gRS"/>
                             <constraint firstItem="i9W-BD-Xqp" firstAttribute="centerX" secondItem="LFz-kc-Hmc" secondAttribute="centerX" id="ZLc-sd-mqi"/>
-                            <constraint firstItem="JWh-zH-hCy" firstAttribute="centerY" secondItem="i9W-BD-Xqp" secondAttribute="centerY" id="eZj-yf-F1T"/>
                             <constraint firstItem="i9W-BD-Xqp" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="8" id="tDd-Ua-pTu"/>
                             <constraint firstItem="i9W-BD-Xqp" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="18" id="tvK-z7-yW3"/>
                         </constraints>
@@ -71,7 +61,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="primat.png" width="4717" height="5378"/>
-        <image name="побигай1.png" width="1414" height="2820"/>
+        <image name="LaunchScr.png" width="1414" height="2820"/>
     </resources>
 </document>

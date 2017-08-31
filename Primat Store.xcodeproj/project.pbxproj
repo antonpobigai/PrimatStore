@@ -29,6 +29,7 @@
 		29EE1C721F5845180008FED1 /* bgImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29EE1C711F5845180008FED1 /* bgImage.jpg */; };
 		29EE1C741F5845870008FED1 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EE1C731F5845870008FED1 /* StartViewController.swift */; };
 		29EE1C761F5847B30008FED1 /* circle-outline-xxl.png in Resources */ = {isa = PBXBuildFile; fileRef = 29EE1C751F5847B30008FED1 /* circle-outline-xxl.png */; };
+		635A21731F5899CE00E2C280 /* LaunchScr.png in Resources */ = {isa = PBXBuildFile; fileRef = 635A21721F5899CC00E2C280 /* LaunchScr.png */; };
 		637084B81F55CB5C0054FE20 /* CounterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637084B71F55CB5C0054FE20 /* CounterModel.swift */; };
 		63A72F821F4B2EF500831F13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A72F811F4B2EF500831F13 /* AppDelegate.swift */; };
 		63A72F871F4B2EF500831F13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63A72F851F4B2EF500831F13 /* Main.storyboard */; };
@@ -68,6 +69,7 @@
 		29EE1C711F5845180008FED1 /* bgImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bgImage.jpg; sourceTree = "<group>"; };
 		29EE1C731F5845870008FED1 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		29EE1C751F5847B30008FED1 /* circle-outline-xxl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circle-outline-xxl.png"; sourceTree = "<group>"; };
+		635A21721F5899CC00E2C280 /* LaunchScr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchScr.png; sourceTree = "<group>"; };
 		637084B71F55CB5C0054FE20 /* CounterModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterModel.swift; sourceTree = "<group>"; };
 		63A72F7E1F4B2EF500831F13 /* Primat Store.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Primat Store.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63A72F811F4B2EF500831F13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -187,6 +189,7 @@
 				29EE1C751F5847B30008FED1 /* circle-outline-xxl.png */,
 				29EE1C711F5845180008FED1 /* bgImage.jpg */,
 				29B7D0CC1F55A4560022B982 /* refresh.png */,
+				635A21721F5899CC00E2C280 /* LaunchScr.png */,
 				29D8A3591F54C8140090C9C2 /* delete.png */,
 				29D8A3571F54B1BA0090C9C2 /* email.png */,
 				63A72F9A1F4B76E800831F13 /* primat.png */,
@@ -273,6 +276,7 @@
 				63A72FD31F558F0800831F13 /* Pobeda_Bold.ttf in Resources */,
 				29D8A35A1F54C8140090C9C2 /* delete.png in Resources */,
 				29EE1C721F5845180008FED1 /* bgImage.jpg in Resources */,
+				635A21731F5899CE00E2C280 /* LaunchScr.png in Resources */,
 				63A72FC61F52DE5200831F13 /* panda1.png in Resources */,
 				29D8A3581F54B1BA0090C9C2 /* email.png in Resources */,
 				29EE1C761F5847B30008FED1 /* circle-outline-xxl.png in Resources */,
@@ -491,7 +495,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "pasha.Primat-Store";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -506,7 +510,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "pasha.Primat-Store";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
