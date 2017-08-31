@@ -99,6 +99,26 @@ class CartViewController: MyViewController, UITableViewDelegate, UITableViewData
         return cell
     }
     
+    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        
+        let x: CGFloat = 1.0
+        let y: CGFloat = 0.0
+        let z: CGFloat = 0.0
+        
+        var rotation = CATransform3DMakeRotation(CGFloat(Double.pi/2), x, y, z)
+        
+        rotation.m34 = 1 / -500
+        cell.contentView.layer.transform = rotation
+        cell.contentView.layer.anchorPoint = CGPoint(x: 0, y: 0)
+        
+        UIView.beginAnimations("rotation", context: nil)
+        UIView.setAnimationDuration(1)
+        
+        cell.contentView.layer.transform = CATransform3DIdentity
+        
+        UIView.commitAnimations()
+    }
+    
     func orderText() -> [String] {
         var stickerString = ""
         var t_shirtSrting = ""
