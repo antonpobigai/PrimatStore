@@ -1,0 +1,6 @@
+framework module Pods_Primat_Store {
+  umbrella header "Pods-Primat Store-umbrella.h"
+
+  export *
+  module * { export * }
+}
