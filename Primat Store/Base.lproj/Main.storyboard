@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="h40-Tr-UI9">
-    <device id="retina5_5" orientation="portrait">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="MMH-DL-1oN">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -21,7 +21,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="hnJ-WP-j6a" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Футболки" image="tshirt32.png" selectedImage="tshirt32.png" id="JGl-2u-P7p"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="dII-ie-qUp">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="dII-ie-qUp">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -40,7 +40,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="nY6-uV-DNH" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Кошик" image="buy64-2.png" id="zaf-kH-PLw"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="WRA-mq-wxo">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="WRA-mq-wxo">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -62,20 +62,20 @@
                         <viewControllerLayoutGuide type="bottom" id="vin-WT-wPu"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Hdu-mv-ueB">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lMF-6I-W7D">
-                                <rect key="frame" x="0.0" y="20" width="414" height="60"/>
+                                <rect key="frame" x="0.0" y="20" width="320" height="60"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Primat Store" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oQ8-52-hEU">
-                                        <rect key="frame" x="138" y="15" width="140" height="31"/>
+                                        <rect key="frame" x="90" y="15" width="140" height="31"/>
                                         <fontDescription key="fontDescription" name="Pobeda-Bold" family="Pobeda" pointSize="31"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jbG-0A-qhU">
-                                        <rect key="frame" x="364" y="10" width="40" height="40"/>
+                                        <rect key="frame" x="270" y="10" width="40" height="40"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="25e-A5-aRu"/>
                                             <constraint firstAttribute="width" constant="40" id="5Dv-Bt-Z8s"/>
@@ -120,14 +120,14 @@
                                 </constraints>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="175" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="4w8-bq-AN0">
-                                <rect key="frame" x="0.0" y="79" width="414" height="608"/>
+                                <rect key="frame" x="-4" y="79" width="328" height="440"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="cart" rowHeight="175" id="5Cf-XQ-pQP" customClass="CartTableViewCell" customModule="Primat_Store" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="175"/>
+                                        <rect key="frame" x="0.0" y="28" width="328" height="175"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="5Cf-XQ-pQP" id="hPR-gE-5EV">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="174"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="328" height="174.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Gpa-re-GPp">
@@ -138,7 +138,7 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zVQ-zj-OQz">
-                                                    <rect key="frame" x="168" y="148" width="241" height="15"/>
+                                                    <rect key="frame" x="168" y="148" width="155" height="15"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="15" id="7vY-FQ-Sjs"/>
                                                     </constraints>
@@ -147,7 +147,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Count" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sEE-kh-nbl">
-                                                    <rect key="frame" x="168" y="78" width="241" height="15"/>
+                                                    <rect key="frame" x="168" y="78" width="155" height="15"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="15" id="rii-xx-1sg"/>
                                                     </constraints>
@@ -156,7 +156,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Кількість:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gto-Fa-9QX">
-                                                    <rect key="frame" x="168" y="57" width="241" height="21"/>
+                                                    <rect key="frame" x="168" y="57" width="155" height="21"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="21" id="PK0-Yy-Cdg"/>
                                                     </constraints>
@@ -165,7 +165,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ціна:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JJU-vt-HWQ">
-                                                    <rect key="frame" x="168" y="133" width="241" height="15"/>
+                                                    <rect key="frame" x="168" y="133" width="155" height="15"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="15" id="gbe-22-4pm"/>
                                                     </constraints>
@@ -174,7 +174,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Лого:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZO6-ku-0WK">
-                                                    <rect key="frame" x="168" y="0.0" width="241" height="15"/>
+                                                    <rect key="frame" x="168" y="0.0" width="155" height="15"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="15" id="SH3-DX-Jpl"/>
                                                     </constraints>
@@ -183,7 +183,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3hr-6U-HFE">
-                                                    <rect key="frame" x="168" y="16" width="241" height="15"/>
+                                                    <rect key="frame" x="168" y="16" width="155" height="15"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="15" id="Z8b-N7-F6q"/>
                                                     </constraints>
@@ -192,7 +192,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Розмір:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LBg-Dd-XQO">
-                                                    <rect key="frame" x="168" y="35" width="236" height="20"/>
+                                                    <rect key="frame" x="168" y="35" width="150" height="20"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="20" id="CjK-BI-tHO"/>
                                                     </constraints>
@@ -267,7 +267,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="tUh-SG-nyq" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Стікери" image="panda1.png" id="gbK-bZ-qHR"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="yxu-wW-w3U">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="yxu-wW-w3U">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -279,6 +279,88 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HkJ-Vi-hC0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="454" y="-814"/>
+        </scene>
+        <!--Start View Controller-->
+        <scene sceneID="jUX-9H-ORr">
+            <objects>
+                <viewController id="MMH-DL-1oN" customClass="StartViewController" customModule="Primat_Store" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DVC-1l-Zdq"/>
+                        <viewControllerLayoutGuide type="bottom" id="YuB-tW-aAl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="eJY-2B-nbn">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bgImage.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="SWd-JA-u7w">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose, buy, share" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="tdX-JK-nZj">
+                                <rect key="frame" x="10" y="45" width="300" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="i13-rs-krH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="40"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Primat Store" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="tdl-sG-cCU">
+                                <rect key="frame" x="10" y="244" width="300" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="9qe-1W-0Vb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Pobeda-Bold" family="Pobeda" pointSize="50"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wkd-tX-ns5">
+                                <rect key="frame" x="130" y="408" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="FET-aN-zLT"/>
+                                    <constraint firstAttribute="width" constant="60" id="mfD-xT-Rd0"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="circle-outline-xxl.png">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Go!">
+                                            <attributes>
+                                                <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <font key="NSFont" size="17" name="LucidaGrande-Bold"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <segue destination="h40-Tr-UI9" kind="showDetail" id="JYv-NT-8RL"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="tdX-JK-nZj" secondAttribute="trailing" constant="10" id="37y-PB-8UY"/>
+                            <constraint firstItem="tdl-sG-cCU" firstAttribute="centerY" secondItem="eJY-2B-nbn" secondAttribute="centerY" id="A2V-Kf-C6w"/>
+                            <constraint firstItem="YuB-tW-aAl" firstAttribute="top" secondItem="Wkd-tX-ns5" secondAttribute="bottom" constant="100" id="Fjk-1B-wHj"/>
+                            <constraint firstItem="SWd-JA-u7w" firstAttribute="leading" secondItem="eJY-2B-nbn" secondAttribute="leading" id="HGV-Ut-IzG"/>
+                            <constraint firstItem="Wkd-tX-ns5" firstAttribute="centerX" secondItem="eJY-2B-nbn" secondAttribute="centerX" id="PSI-hP-dVW"/>
+                            <constraint firstItem="tdX-JK-nZj" firstAttribute="top" secondItem="DVC-1l-Zdq" secondAttribute="bottom" constant="25" id="TvU-27-Bdi"/>
+                            <constraint firstItem="YuB-tW-aAl" firstAttribute="top" secondItem="SWd-JA-u7w" secondAttribute="bottom" id="VMQ-sg-Vjq"/>
+                            <constraint firstItem="tdl-sG-cCU" firstAttribute="leading" secondItem="eJY-2B-nbn" secondAttribute="leading" constant="10" id="ajR-o1-TYc"/>
+                            <constraint firstItem="tdX-JK-nZj" firstAttribute="leading" secondItem="eJY-2B-nbn" secondAttribute="leading" constant="10" id="l3g-oS-cVd"/>
+                            <constraint firstAttribute="trailing" secondItem="SWd-JA-u7w" secondAttribute="trailing" id="szl-QP-s2D"/>
+                            <constraint firstAttribute="trailing" secondItem="tdl-sG-cCU" secondAttribute="trailing" constant="10" id="xGC-jd-IkU"/>
+                            <constraint firstItem="SWd-JA-u7w" firstAttribute="top" secondItem="eJY-2B-nbn" secondAttribute="top" id="yEh-g2-Y8x"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="boImage" destination="SWd-JA-u7w" id="TYf-RX-h3h"/>
+                        <outlet property="firstLabel" destination="tdX-JK-nZj" id="fpt-xf-kSM"/>
+                        <outlet property="goButton" destination="Wkd-tX-ns5" id="2cm-rn-sZo"/>
+                        <outlet property="secondLabel" destination="tdl-sG-cCU" id="OdJ-fn-pTk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4ON-TY-2s9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1149.2753623188407" y="-250.27173913043481"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="c6q-I8-ldf">
@@ -313,14 +395,14 @@
                         <viewControllerLayoutGuide type="bottom" id="Fop-GB-i0J"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="aKd-6O-ZeY">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bSe-o3-quD">
-                                <rect key="frame" x="0.0" y="80" width="414" height="656"/>
+                                <rect key="frame" x="0.0" y="80" width="320" height="488"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total price" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nm5-Hh-jxc">
-                                        <rect key="frame" x="230" y="178" width="174" height="21"/>
+                                        <rect key="frame" x="230" y="178" width="80" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="21" id="NyZ-Jh-mH7"/>
                                         </constraints>
@@ -329,7 +411,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$$" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qWQ-oX-SFy">
-                                        <rect key="frame" x="230" y="199" width="174" height="21"/>
+                                        <rect key="frame" x="230" y="199" width="80" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="21" id="gMW-Xi-9J0"/>
                                         </constraints>
@@ -346,7 +428,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FGp-nT-pjN">
-                                <rect key="frame" x="0.0" y="20" width="414" height="60"/>
+                                <rect key="frame" x="0.0" y="20" width="320" height="60"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kyE-nm-mQJ">
                                         <rect key="frame" x="10" y="15" width="50" height="30"/>
@@ -362,7 +444,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r5x-UG-qfm">
-                                        <rect key="frame" x="374" y="15" width="30" height="30"/>
+                                        <rect key="frame" x="280" y="15" width="30" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="30" id="QP4-lO-MoQ"/>
                                             <constraint firstAttribute="height" constant="30" id="hHC-Ge-QAG"/>
@@ -375,7 +457,7 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sticker Store" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UJE-v5-ENv">
-                                        <rect key="frame" x="135" y="15" width="145" height="31"/>
+                                        <rect key="frame" x="88" y="15" width="145" height="31"/>
                                         <fontDescription key="fontDescription" name="Pobeda-Bold" family="Pobeda" pointSize="31"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
@@ -400,7 +482,7 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QUB-m0-e9e">
-                                <rect key="frame" x="230" y="100" width="174" height="30"/>
+                                <rect key="frame" x="230" y="100" width="80" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="hSt-nz-aHB"/>
                                 </constraints>
@@ -409,7 +491,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Size" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="scs-Io-cUa">
-                                <rect key="frame" x="230" y="140" width="174" height="21"/>
+                                <rect key="frame" x="230" y="140" width="80" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="4T8-A5-V4c"/>
                                 </constraints>
@@ -418,7 +500,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter Count" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9gj-WT-oR7">
-                                <rect key="frame" x="230" y="171" width="174" height="21"/>
+                                <rect key="frame" x="230" y="171" width="80" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="C1E-zu-wkp"/>
                                 </constraints>
@@ -427,7 +509,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="1-999" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Jhk-cI-liw">
-                                <rect key="frame" x="230" y="197" width="174" height="30"/>
+                                <rect key="frame" x="230" y="197" width="80" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done"/>
@@ -484,20 +566,20 @@
                         <viewControllerLayoutGuide type="bottom" id="MmB-zg-ZCp"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="EeO-PQ-r54">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ow4-Ai-K6U">
-                                <rect key="frame" x="4" y="20" width="406" height="60"/>
+                                <rect key="frame" x="0.0" y="20" width="320" height="60"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Primat Store" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OFR-gc-0eY">
-                                        <rect key="frame" x="134" y="15" width="140" height="31"/>
+                                        <rect key="frame" x="90" y="15" width="140" height="31"/>
                                         <fontDescription key="fontDescription" name="Pobeda-Bold" family="Pobeda" pointSize="31"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Ve-aj-FWN">
-                                        <rect key="frame" x="366" y="15" width="30" height="30"/>
+                                        <rect key="frame" x="280" y="15" width="30" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="fAj-QN-Lj2"/>
                                             <constraint firstAttribute="width" constant="30" id="mHt-gm-j4N"/>
@@ -520,14 +602,14 @@
                                 </constraints>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="218" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="EfX-ir-YR4">
-                                <rect key="frame" x="4" y="80" width="406" height="607"/>
+                                <rect key="frame" x="0.0" y="80" width="320" height="439"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="sticker" rowHeight="220" id="moM-Em-k10" customClass="StickerTableViewCell" customModule="Primat_Store" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="406" height="220"/>
+                                        <rect key="frame" x="0.0" y="28" width="320" height="220"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="moM-Em-k10" id="gyJ-mX-JLO">
-                                            <rect key="frame" x="0.0" y="0.0" width="406" height="219"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="219.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="E9w-aG-DIk">
@@ -538,7 +620,7 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZfN-VH-Pf5">
-                                                    <rect key="frame" x="210" y="0.0" width="186" height="30"/>
+                                                    <rect key="frame" x="210" y="0.0" width="100" height="30"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="30" id="Ibj-cU-10b"/>
                                                     </constraints>
@@ -547,7 +629,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qGE-bb-McB">
-                                                    <rect key="frame" x="210" y="180" width="186" height="30"/>
+                                                    <rect key="frame" x="210" y="180" width="100" height="30"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="30" id="s07-0Y-b4h"/>
                                                     </constraints>
@@ -556,7 +638,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Size" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m1e-hM-BBj">
-                                                    <rect key="frame" x="210" y="100" width="178" height="21"/>
+                                                    <rect key="frame" x="210" y="100" width="92" height="21"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="21" id="hg1-nv-Onl"/>
                                                     </constraints>
@@ -565,7 +647,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ціна(ГРН):" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VhP-0R-kEf">
-                                                    <rect key="frame" x="210" y="159" width="186" height="21"/>
+                                                    <rect key="frame" x="210" y="159" width="100" height="21"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="21" id="snh-cr-s9f"/>
                                                     </constraints>
@@ -574,7 +656,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Розмір:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ahy-jX-1Co">
-                                                    <rect key="frame" x="210" y="79" width="186" height="21"/>
+                                                    <rect key="frame" x="210" y="79" width="100" height="21"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="21" id="LK7-Qc-7WP"/>
                                                         <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="jyH-YC-IpD"/>
@@ -645,20 +727,20 @@
                         <viewControllerLayoutGuide type="bottom" id="GDS-dc-PxY"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="HKJ-o3-o8B">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ajL-4X-SfH">
-                                <rect key="frame" x="0.0" y="20" width="414" height="60"/>
+                                <rect key="frame" x="0.0" y="20" width="320" height="60"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Primat Store" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z88-4H-I9a">
-                                        <rect key="frame" x="138" y="15" width="140" height="31"/>
+                                        <rect key="frame" x="90" y="15" width="140" height="31"/>
                                         <fontDescription key="fontDescription" name="Pobeda-Bold" family="Pobeda" pointSize="31"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hFF-tb-hNa">
-                                        <rect key="frame" x="374" y="15" width="30" height="30"/>
+                                        <rect key="frame" x="280" y="15" width="30" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="6nC-ed-csR"/>
                                             <constraint firstAttribute="width" constant="30" id="k92-Tc-QDg"/>
@@ -683,14 +765,14 @@
                                 </constraints>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="220" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="U15-ep-Fwt">
-                                <rect key="frame" x="4" y="80" width="406" height="607"/>
+                                <rect key="frame" x="0.0" y="80" width="320" height="439"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="tshirt" rowHeight="220" id="zZB-UD-nBf" customClass="TShirtTableViewCell" customModule="Primat_Store" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="406" height="220"/>
+                                        <rect key="frame" x="0.0" y="28" width="320" height="220"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="zZB-UD-nBf" id="eq1-uQ-INq">
-                                            <rect key="frame" x="0.0" y="0.0" width="406" height="219"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="219.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="lYQ-eH-ZDl">
@@ -701,7 +783,7 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VKg-vC-W40">
-                                                    <rect key="frame" x="210" y="0.0" width="186" height="30"/>
+                                                    <rect key="frame" x="210" y="0.0" width="100" height="30"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="30" id="AZ2-wE-wwm"/>
                                                     </constraints>
@@ -710,7 +792,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fNh-du-N68">
-                                                    <rect key="frame" x="210" y="189" width="186" height="21"/>
+                                                    <rect key="frame" x="210" y="189" width="100" height="21"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="21" id="jPB-Ff-2hc"/>
                                                     </constraints>
@@ -719,7 +801,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sizes" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xW4-gd-oGD">
-                                                    <rect key="frame" x="210" y="100" width="186" height="21"/>
+                                                    <rect key="frame" x="210" y="100" width="100" height="21"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="21" id="wlU-Ot-46J"/>
                                                     </constraints>
@@ -728,7 +810,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ціна(ГРН):" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R7i-Ph-wiw">
-                                                    <rect key="frame" x="210" y="165" width="186" height="21"/>
+                                                    <rect key="frame" x="210" y="165" width="100" height="21"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="21" id="ARe-z1-OHT"/>
                                                     </constraints>
@@ -737,7 +819,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Наявні розміри:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ot-tH-YGY">
-                                                    <rect key="frame" x="210" y="79" width="186" height="21"/>
+                                                    <rect key="frame" x="210" y="79" width="100" height="21"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="21" id="540-2w-BUS"/>
                                                     </constraints>
@@ -807,14 +889,14 @@
                         <viewControllerLayoutGuide type="bottom" id="c7D-12-boG"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="TNi-qv-eGz">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kfq-MR-ecJ">
-                                <rect key="frame" x="0.0" y="80" width="414" height="607"/>
+                                <rect key="frame" x="0.0" y="80" width="320" height="439"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total price:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b5C-16-Rd9">
-                                        <rect key="frame" x="282" y="171" width="70" height="21"/>
+                                        <rect key="frame" x="235" y="171" width="70" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="21" id="RFK-2E-PNz"/>
                                         </constraints>
@@ -823,7 +905,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$$" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vHV-kQ-6f6">
-                                        <rect key="frame" x="230" y="199" width="174" height="21"/>
+                                        <rect key="frame" x="230" y="199" width="80" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="21" id="ljM-pU-8bC"/>
                                         </constraints>
@@ -838,7 +920,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tbs-1L-ef9">
-                                <rect key="frame" x="0.0" y="20" width="414" height="60"/>
+                                <rect key="frame" x="0.0" y="20" width="320" height="60"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YMe-o0-hzl">
                                         <rect key="frame" x="10" y="15" width="50" height="30"/>
@@ -854,7 +936,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sl5-so-x3p">
-                                        <rect key="frame" x="374" y="15" width="30" height="30"/>
+                                        <rect key="frame" x="280" y="15" width="30" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="30" id="F3i-AP-uEw"/>
                                             <constraint firstAttribute="height" constant="30" id="zuI-G2-XiQ"/>
@@ -867,7 +949,7 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="T-Shirt Store" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t0I-WS-O4x">
-                                        <rect key="frame" x="136" y="15" width="144" height="31"/>
+                                        <rect key="frame" x="88" y="15" width="144" height="31"/>
                                         <fontDescription key="fontDescription" name="Pobeda-Bold" family="Pobeda" pointSize="31"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
@@ -892,7 +974,7 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p0r-SM-JLH">
-                                <rect key="frame" x="230" y="100" width="174" height="25"/>
+                                <rect key="frame" x="230" y="100" width="80" height="25"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="25" id="mfA-VI-0zt"/>
                                 </constraints>
@@ -901,7 +983,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter Size" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9yR-q8-8t5">
-                                <rect key="frame" x="230" y="128" width="174" height="15"/>
+                                <rect key="frame" x="230" y="128" width="80" height="15"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="15" id="UnO-9n-0CB"/>
                                 </constraints>
@@ -910,7 +992,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter Count" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xtG-Fz-K09">
-                                <rect key="frame" x="230" y="169" width="174" height="15"/>
+                                <rect key="frame" x="230" y="169" width="80" height="15"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="15" id="ckf-Cb-TBF"/>
                                 </constraints>
@@ -919,7 +1001,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="1-999" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="stj-D3-Z6D">
-                                <rect key="frame" x="230" y="187" width="174" height="20"/>
+                                <rect key="frame" x="230" y="187" width="80" height="20"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="20" id="0YM-YX-ibd"/>
                                 </constraints>
@@ -928,7 +1010,7 @@
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="S,M,L,XL" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HgY-0j-WRR">
-                                <rect key="frame" x="230" y="146" width="174" height="20"/>
+                                <rect key="frame" x="230" y="146" width="80" height="20"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="20" id="NgO-ce-kxa"/>
                                 </constraints>
@@ -937,7 +1019,7 @@
                                 <textInputTraits key="textInputTraits" returnKeyType="done"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Male or Famale" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="URp-dj-Uwn">
-                                <rect key="frame" x="230" y="228" width="174" height="20"/>
+                                <rect key="frame" x="230" y="228" width="80" height="20"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="20" id="OCL-1m-izW"/>
                                 </constraints>
@@ -946,7 +1028,7 @@
                                 <textInputTraits key="textInputTraits" returnKeyType="done"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter Sex" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ksZ-Qb-8al">
-                                <rect key="frame" x="230" y="210" width="174" height="15"/>
+                                <rect key="frame" x="230" y="210" width="80" height="15"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="15" id="4Ll-38-oj0"/>
                                 </constraints>
@@ -1010,7 +1092,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="bgImage.jpg" width="620" height="701"/>
         <image name="buy64-2.png" width="26" height="26"/>
+        <image name="circle-outline-xxl.png" width="256" height="256"/>
         <image name="delete.png" width="512" height="512"/>
         <image name="email" width="512" height="512"/>
         <image name="panda1.png" width="30" height="30"/>

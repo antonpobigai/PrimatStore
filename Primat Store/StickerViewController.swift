@@ -51,7 +51,7 @@ class StickerViewController:MyViewController , UITableViewDelegate, UITableViewD
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
         
         let x: CGFloat = 1.0
-        let y: CGFloat = 0.0
+        let y: CGFloat = 1.0
         let z: CGFloat = 0.0
         
         var rotation = CATransform3DMakeRotation(CGFloat(Double.pi/2), x, y, z)

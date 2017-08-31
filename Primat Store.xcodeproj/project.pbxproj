@@ -26,6 +26,9 @@
 		29D8A35C1F54CA8A0090C9C2 /* loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D8A35B1F54CA8A0090C9C2 /* loading.swift */; };
 		29D8A35E1F54CB950090C9C2 /* AlertMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D8A35D1F54CB950090C9C2 /* AlertMessages.swift */; };
 		29E3B0841F548C7100AE775F /* CartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E3B0831F548C7100AE775F /* CartTableViewCell.swift */; };
+		29EE1C721F5845180008FED1 /* bgImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29EE1C711F5845180008FED1 /* bgImage.jpg */; };
+		29EE1C741F5845870008FED1 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EE1C731F5845870008FED1 /* StartViewController.swift */; };
+		29EE1C761F5847B30008FED1 /* circle-outline-xxl.png in Resources */ = {isa = PBXBuildFile; fileRef = 29EE1C751F5847B30008FED1 /* circle-outline-xxl.png */; };
 		637084B81F55CB5C0054FE20 /* CounterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637084B71F55CB5C0054FE20 /* CounterModel.swift */; };
 		63A72F821F4B2EF500831F13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A72F811F4B2EF500831F13 /* AppDelegate.swift */; };
 		63A72F871F4B2EF500831F13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63A72F851F4B2EF500831F13 /* Main.storyboard */; };
@@ -62,6 +65,9 @@
 		29D8A35B1F54CA8A0090C9C2 /* loading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loading.swift; sourceTree = "<group>"; };
 		29D8A35D1F54CB950090C9C2 /* AlertMessages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertMessages.swift; sourceTree = "<group>"; };
 		29E3B0831F548C7100AE775F /* CartTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartTableViewCell.swift; sourceTree = "<group>"; };
+		29EE1C711F5845180008FED1 /* bgImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bgImage.jpg; sourceTree = "<group>"; };
+		29EE1C731F5845870008FED1 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		29EE1C751F5847B30008FED1 /* circle-outline-xxl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circle-outline-xxl.png"; sourceTree = "<group>"; };
 		637084B71F55CB5C0054FE20 /* CounterModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterModel.swift; sourceTree = "<group>"; };
 		63A72F7E1F4B2EF500831F13 /* Primat Store.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Primat Store.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63A72F811F4B2EF500831F13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +109,7 @@
 				2922A9361F5427C400C00AEA /* TshirtOrderViewController.swift */,
 				2922A93A1F54361C00C00AEA /* CartViewController.swift */,
 				29E3B0831F548C7100AE775F /* CartTableViewCell.swift */,
+				29EE1C731F5845870008FED1 /* StartViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -177,6 +184,8 @@
 		63A72F971F4B732500831F13 /* LaunchImage */ = {
 			isa = PBXGroup;
 			children = (
+				29EE1C751F5847B30008FED1 /* circle-outline-xxl.png */,
+				29EE1C711F5845180008FED1 /* bgImage.jpg */,
 				29B7D0CC1F55A4560022B982 /* refresh.png */,
 				29D8A3591F54C8140090C9C2 /* delete.png */,
 				29D8A3571F54B1BA0090C9C2 /* email.png */,
@@ -263,8 +272,10 @@
 			files = (
 				63A72FD31F558F0800831F13 /* Pobeda_Bold.ttf in Resources */,
 				29D8A35A1F54C8140090C9C2 /* delete.png in Resources */,
+				29EE1C721F5845180008FED1 /* bgImage.jpg in Resources */,
 				63A72FC61F52DE5200831F13 /* panda1.png in Resources */,
 				29D8A3581F54B1BA0090C9C2 /* email.png in Resources */,
+				29EE1C761F5847B30008FED1 /* circle-outline-xxl.png in Resources */,
 				29B7D0CD1F55A4560022B982 /* refresh.png in Resources */,
 				63A72FB81F51911100831F13 /* tshirt32.png in Resources */,
 				63A72FC41F51AC4A00831F13 /* AppIcon.xcassets in Resources */,
@@ -346,6 +357,7 @@
 				2996AE081F536A7B00F25675 /* TShirtTableViewCell.swift in Sources */,
 				2922A9371F5427C400C00AEA /* TshirtOrderViewController.swift in Sources */,
 				63A72F821F4B2EF500831F13 /* AppDelegate.swift in Sources */,
+				29EE1C741F5845870008FED1 /* StartViewController.swift in Sources */,
 				2922A9351F5427A100C00AEA /* StickerOrderViewController.swift in Sources */,
 				29E3B0841F548C7100AE775F /* CartTableViewCell.swift in Sources */,
 				2996AE0A1F536A8E00F25675 /* StickerTableViewCell.swift in Sources */,
