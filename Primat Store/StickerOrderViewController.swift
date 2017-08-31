@@ -27,7 +27,7 @@ class StickerOrderViewController: MyViewController, UITextFieldDelegate {
 
         buyButton.isEnabled = false
         
-        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(StickerOrderViewController.dismissKeyboard))
         view.addGestureRecognizer(tap)
         
         stickerTitle.text = selectedSticker.name
@@ -73,7 +73,7 @@ class StickerOrderViewController: MyViewController, UITextFieldDelegate {
             tabBarController?.tabBar.items?.last?.badgeValue = "1"
         }
         
-        if let count = countTextfield.text {
+        if countTextfield.text != nil {
             stickerForOrder.count = orderCount
             stickerForOrder.name = selectedSticker.name
             stickerForOrder.picture = selectedSticker.picture

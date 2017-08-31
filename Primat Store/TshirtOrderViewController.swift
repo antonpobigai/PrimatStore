@@ -28,7 +28,7 @@ class TshirtOrderViewController: MyViewController, UITextFieldDelegate {
         
         buyButton.isEnabled = false
         
-        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(TshirtOrderViewController.dismissKeyboard))
         view.addGestureRecognizer(tap)
         
         self.countTextField.delegate = self
@@ -80,7 +80,7 @@ class TshirtOrderViewController: MyViewController, UITextFieldDelegate {
             tabBarController?.tabBar.items?.last?.badgeValue = "1"
         }
         
-        if let count = countTextField.text {
+        if countTextField.text != nil {
             tshirtForOrder.color = selectedTshirt.color
             tshirtForOrder.count = orderCount
             tshirtForOrder.nameOfPrint = selectedTshirt.nameOfPrint

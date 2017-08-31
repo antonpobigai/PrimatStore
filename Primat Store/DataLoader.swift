@@ -20,10 +20,10 @@ class DataLoader {
             if error == nil {
                 if let objects = objects {
                     let stickers = objects.map({ (object) -> StickerVO in
-                        StickerVO(name: object.value(forKey: "name") as! String,
+                        StickerVO(name: object.value(forKey: "name") as? String,
                                   picture: URL(string:(object.value(forKey: "pictureURL") as! String))! ,
-                                  price: object.value(forKey: "price") as! Double,
-                                  size: object.value(forKey: "size") as! String)
+                                  price: object.value(forKey: "price") as? Double,
+                                  size: object.value(forKey: "size") as? String)
                     })
                     
                     Model.instance.setStickers(stickers: stickers)
